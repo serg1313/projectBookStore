@@ -1,0 +1,23 @@
+[33mcommit 0fe721a75b86b25bbf2f4dd5b8a1076bccb08473[m[33m ([m[1;36mHEAD -> [m[1;32mTask-2[m[33m, [m[1;31morigin/Task-2[m[33m)[m
+Author: Sergey Kostenko <sergejkostenko@rambler.ru>
+Date:   Sun Jan 9 10:35:05 2022 +0300
+
+    adding new file uml
+
+[33mcommit da007aacafa006ef13f40e1aa37c26d0d7054ece[m[33m ([m[1;31morigin/Task-0[m[33m, [m[1;32mTask-0[m[33m)[m
+Author: Sergey Kostenko <sergejkostenko@rambler.ru>
+Date:   Sun Jan 9 10:17:29 2022 +0300
+
+    file rename
+
+[33mcommit 90e8a022c9cc5affb9f3ade23ffe83aeadc5b187[m
+Author: Sergey Kostenko <sergejkostenko@rambler.ru>
+Date:   Sun Jan 9 10:14:09 2022 +0300
+
+    add new file
+
+[33mcommit 1f0eeb0928957755331d127c602ae0248047ef5b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Roman Grigorev <roman_grigorev@senla.eu>
+Date:   Wed Dec 22 14:41:03 2021 +0000
+
+    Initial commit
