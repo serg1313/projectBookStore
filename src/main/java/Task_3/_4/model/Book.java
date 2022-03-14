@@ -13,12 +13,12 @@ public class Book extends BaseEntity implements Comparable<Book> {
 
     public Book(Book book) {
         super(id++);
-        this.nameBook = book.getNameBook();
-        this.authorBook = book.getAuthorBook();
+        this.nameBook=book.getNameBook();
+        this.authorBook =book.getAuthorBook();
         this.yearOfPublic = book.getYearOfPublic();
         this.price = book.getPrice();
         this.statusBook = true;
-        this.dateDelivery = book.getDateDelivery();
+        this.dateDelivery=book.getDateDelivery();
     }
 
     public Book(String nameBook, String authorBook, int yearOfPublic, double price, boolean statusBook, LocalDate dateDelivery) {
@@ -91,7 +91,7 @@ public class Book extends BaseEntity implements Comparable<Book> {
 
     @Override
     public String toString() {
-        return "Book{" + "id = " + getId() +
+        return "Book{" + "id = "+getId()+
                 " nameBook='" + nameBook + '\'' +
                 ", authorBook='" + authorBook + '\'' +
                 ", yearOfPublic=" + yearOfPublic +
