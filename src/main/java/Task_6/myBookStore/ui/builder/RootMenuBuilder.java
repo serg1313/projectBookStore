@@ -1,6 +1,5 @@
 package Task_6.myBookStore.ui.builder;
 
-
 import Task_6.myBookStore.ui.action.ActionEnum;
 import Task_6.myBookStore.ui.controller.Menu;
 import Task_6.myBookStore.ui.controller.MenuItem;

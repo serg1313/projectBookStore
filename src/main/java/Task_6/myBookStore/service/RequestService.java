@@ -44,13 +44,15 @@ public interface RequestService {
 
     /**
      * сортировать запросы по имени книги
+     *
      * @param
      * @return
      */
-    void  sortRequestBookByName();
+    void sortRequestBookByName();
 
     /**
      * сортировать по количеству запросов на книгу
+     *
      * @param
      */
     void sortRequestByCount();

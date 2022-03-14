@@ -24,10 +24,9 @@ public interface OrderRepository {
 
     /**
      * Вернуть список книг в заказе по id заказа
+     *
      * @param id
      * @return
      */
     List<Book> getBookByOrder(long id);
-
-
 }

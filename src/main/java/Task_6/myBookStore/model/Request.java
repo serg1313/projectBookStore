@@ -1,4 +1,5 @@
 package Task_6.myBookStore.model;
+
 public class Request extends BaseEntity {
     private static long id = 1;
     private Book book;

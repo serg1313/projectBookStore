@@ -76,7 +76,6 @@ public class BookServiceImpl implements BookService {
         return false;
     }
 
-
     /**
      * сортировка книг по названию
      *
@@ -165,7 +164,7 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public void sortingBookById(List<Book> bookList) {
-        bookList.sort((o1, o2) -> (int) (o1.getId()-o2.getId()));
+        bookList.sort((o1, o2) -> (int) (o1.getId() - o2.getId()));
         for (Book book : bookList) {
             System.out.println(book);
         }
@@ -173,28 +172,28 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public List<Book> sortByPriceListOfStaleBooksNotSold(List<Book> bookList) {
-        bookList=bookRepository.getBooks().stream()
-                .filter(book -> book.getStatusBook()==true)
+        bookList = bookRepository.getBooks().stream()
+                .filter(book -> book.getStatusBook() == true)
                 .filter(book -> book.getDateDelivery().plusMonths(6).isBefore(LocalDate.now()))
                 .collect(Collectors.toList());
-        bookList.sort((o1, o2) -> (int) (o1.getPrice()-o2.getPrice()));
+        bookList.sort((o1, o2) -> (int) (o1.getPrice() - o2.getPrice()));
         return bookList;
     }
 
     @Override
     public List<Book> sortByNameListOfStaleBooksNotSold(List<Book> bookList) {
         bookList = bookRepository.getBooks().stream()
-                .filter(book -> book.getStatusBook()==true)
+                .filter(book -> book.getStatusBook() == true)
                 .filter(book -> book.getDateDelivery().plusMonths(6).isBefore(LocalDate.now()))
                 .collect(Collectors.toList());
-            bookList.sort((o1, o2) -> o1.getNameBook().compareTo(o2.getNameBook()));
+        bookList.sort((o1, o2) -> o1.getNameBook().compareTo(o2.getNameBook()));
         return bookList;
     }
 
     @Override
     public List<Book> sortByDateDeliveryOfStaleBooksNotSold(List<Book> books) {
-        books=bookRepository.getBooks().stream()
-                .filter(book -> book.getStatusBook()==true)
+        books = bookRepository.getBooks().stream()
+                .filter(book -> book.getStatusBook() == true)
                 .filter(book -> book.getDateDelivery().plusMonths(6).isBefore(LocalDate.now()))
                 .collect(Collectors.toList());
         books.sort((o1, o2) -> o1.getDateDelivery().compareTo(o2.getDateDelivery()));
@@ -204,16 +203,16 @@ public class BookServiceImpl implements BookService {
     @Override
     public void sortBookByDateDelivery(List<Book> bookList) {
         bookList.sort(Comparator.comparing(Book::getDateDelivery));
-        for (Book book:bookList){
+        for (Book book : bookList) {
             System.out.println(book);
         }
     }
 
     @Override
-    public void getDescriptionBook(long id){
+    public void getDescriptionBook(long id) {
         Book book = bookRepository.getBookById(id);
-        System.out.println("Автор книги - "+book.getAuthorBook()+ ". Наименование книги - "+book.getNameBook()+
-                ". Цена книги - "+ book.getPrice()+". Дата издание книги - "+book.getYearOfPublic());
+        System.out.println("Автор книги - " + book.getAuthorBook() + ". Наименование книги - " + book.getNameBook() +
+                ". Цена книги - " + book.getPrice() + ". Дата издание книги - " + book.getYearOfPublic());
 
     }
 

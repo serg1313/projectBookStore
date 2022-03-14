@@ -4,5 +4,4 @@ public enum RequestStatus {
     NEW,
     COMPLETED,
     CANCELLED
-
 }

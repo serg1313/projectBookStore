@@ -75,24 +75,28 @@ public interface OrderService {
 
     /**
      * сортировка списка заказов по цене
+     *
      * @param orders
      */
-    List<Order>  sortOrderByPrice(List<Order> orders);
+    List<Order> sortOrderByPrice(List<Order> orders);
 
     /**
      * получить список книг в конкретном заказе
+     *
      * @param idOrder
      */
     List<Book> getBookByOrder(long idOrder);
 
     /**
      * получить информацию из заказа о покупателе, книгах и сумме заказа
+     *
      * @param id
      */
     void getInfoOrder(long id);
 
     /**
      * сортировка выполненных заказов за указанный период
+     *
      * @param dateStart
      * @param dateEnd
      * @return
@@ -101,6 +105,7 @@ public interface OrderService {
 
     /**
      * сортировка выполненных заказов за указанный период по сумме заказа
+     *
      * @param dateStart
      * @param dateEnd
      * @return
@@ -109,6 +114,7 @@ public interface OrderService {
 
     /**
      * получить сумму заработанных средств за период времени
+     *
      * @param dateStart
      * @param dateEnd
      * @return
@@ -117,11 +123,11 @@ public interface OrderService {
 
     /**
      * получить количество выполненных заказов за период времени
+     *
      * @param dateStart
      * @param dateEnd
      * @return
      */
     int getCountComletedOrdersByPeriod(LocalDate dateStart, LocalDate dateEnd);
-
 
 }

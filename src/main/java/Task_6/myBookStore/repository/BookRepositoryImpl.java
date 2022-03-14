@@ -84,6 +84,5 @@ public class BookRepositoryImpl implements BookRepository {
             bookList.add(book);
         }
     }
-
 }
 

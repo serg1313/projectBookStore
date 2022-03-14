@@ -16,7 +16,6 @@ public class NestedMenuBooks {
     }
 
     public void buildMenu() {
-
         List<MenuItem> menuItems = new ArrayList<>();
         current = new Menu("Меню книг", menuItems);
         menuItems.add(new MenuItem("1: Список всех книг", ActionEnum.GET_LIST_BOOKS.getAction(), null));

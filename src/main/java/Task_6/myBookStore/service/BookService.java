@@ -65,24 +65,28 @@ public interface BookService {
 
     /**
      * получить общее количество книг на складе
+     *
      * @return
      */
     int getCountBookByRepository();
 
     /**
      * сортировка книг по id
+     *
      * @param bookList
      */
     void sortingBookById(List<Book> bookList);
 
     /**
      * сортировка книг по дате поступления
+     *
      * @param bookList
      */
     void sortBookByDateDelivery(List<Book> bookList);
 
     /**
      * получить список не проданных книг более 6 мес отсортированных по названию книги
+     *
      * @param bookList
      * @return
      */
@@ -90,6 +94,7 @@ public interface BookService {
 
     /**
      * получить список не проданных книг более 6 мес отсортированных по цене
+     *
      * @param bookList
      * @return
      */
@@ -97,6 +102,7 @@ public interface BookService {
 
     /**
      * получить список не проданных книг более 6 месяцев отсортированных по дате поступления
+     *
      * @param books
      * @return
      */

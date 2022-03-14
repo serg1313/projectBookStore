@@ -11,7 +11,6 @@ import java.util.Scanner;
 
 import static Task_6.myBookStore.Main.*;
 
-
 public enum ActionEnum {
     EXIST_ACTION(() -> System.exit(0)),
     ORDER_ACTION(() -> System.out.println("Заказ")),

@@ -28,7 +28,7 @@ public class RequestServiceImpl implements RequestService {
             request = new Request(current, RequestStatus.NEW);
             requestRepository.getRequest().add(request);
             current.setRequests(request);
-            System.out.println("Запрос на книгу "+ current.getNameBook()+" создан.");
+            System.out.println("Запрос на книгу " + current.getNameBook() + " создан.");
         }
     }
 
@@ -48,8 +48,8 @@ public class RequestServiceImpl implements RequestService {
                 break;
             }
         }
-                System.out.println("Указанной книги c наименованием - "+nameBook+
-                        " и указанного автора - "+authorBook+" нет в магазине");
+        System.out.println("Указанной книги c наименованием - " + nameBook +
+                " и указанного автора - " + authorBook + " нет в магазине");
 
 
         if (request != null) {
@@ -84,7 +84,7 @@ public class RequestServiceImpl implements RequestService {
             if (request.getBook().getId() == id) {
                 if (request.getRequestStatus().equals(RequestStatus.NEW)) {
                     request.setRequestStatus(RequestStatus.CANCELLED);
-                    System.out.println("Запрос № "+ request.getId()+" переведен в статус закрыт");
+                    System.out.println("Запрос № " + request.getId() + " переведен в статус закрыт");
                 }
             }
             //System.out.println("Запроса на указанную книгу нет");
