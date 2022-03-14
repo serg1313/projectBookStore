@@ -1,4 +1,4 @@
-package Task_3;
+package Task_3._3;
 
 public class CarAssemblyLine implements IAssemblyLine {
     private ILineStep firstStep;

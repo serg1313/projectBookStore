@@ -1,5 +1,4 @@
-package Task_3;
-
+package Task_3._3;
 
 public class ChassisPart implements IProductPart {
     public ChassisPart() {

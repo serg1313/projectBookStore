@@ -1,4 +1,4 @@
-package Task_3;
+package Task_3._3;
 
 public class StartAssembly {
     public static void main(String[] args) {
