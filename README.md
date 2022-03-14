@@ -1,2 +1,0 @@
-# sergei_kostenko
-
