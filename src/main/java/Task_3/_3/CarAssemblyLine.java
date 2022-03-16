@@ -1,6 +1,7 @@
 package Task_3._3;
 
 public class CarAssemblyLine implements IAssemblyLine {
+
     private ILineStep firstStep;
     private ILineStep secondStep;
     private ILineStep thirdStep;

@@ -1,6 +1,7 @@
 package Task_3._3;
 
 public class Car implements IProduct {
+
     private IProductPart chassisPart;
     private IProductPart enginePart;
     private IProductPart bodyPart;
