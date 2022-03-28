@@ -30,7 +30,7 @@ public enum ActionEnum {
             e.printStackTrace();
         }
         System.exit(0);
-}),
+    }),
     ORDER_ACTION(() -> System.out.println("Заказ")),
     ORDER_MENU_INFO(() -> System.out.println("Информция по заказам")),
     ORDER_SORT_ACTION(() -> System.out.println("Сортировка")),
@@ -38,7 +38,7 @@ public enum ActionEnum {
     BOOK_MENU_ACTION(() -> System.out.println("Действия над книгой")),
     REQUEST_ACTION(() -> System.out.println("Запросы")),
     BOOK_ACTION(() -> System.out.println("Книги")),
-    IMPORT_EXPORT_DATA(()-> System.out.println("Импорт/экспорт данных")),
+    IMPORT_EXPORT_DATA(() -> System.out.println("Импорт/экспорт данных")),
     CUSTOMER_ACTION(() -> System.out.println("Покупатели")),
     CREATE_ORDER(() -> {
         System.out.println("Заказ");
@@ -53,7 +53,7 @@ public enum ActionEnum {
         for (int i = 0; i < size; i++) {
             array[i] = scanner.nextInt(); // Заполняем массив элементами, введёнными с клавиатуры
         }
-        Order order = new Order(localDate,id,array);
+        Order order = new Order(localDate, id, array);
         orderRepository.addNewOrder(order);
     }),
     CREATE_REQUEST_BOOK(() -> {
@@ -109,17 +109,15 @@ public enum ActionEnum {
                 break;
             default:
                 System.out.println("Не верный статус");
-
         }
         LocalDate localDate1 = LocalDate.now();
         orderService.changeOrder(id2, orderStatus, localDate1);
     }),
-GET_LIST_ORDERS(()->{
-    for (Order order: orderRepository.getOrders()){
-        System.out.println(order);
-    }
-}),
-
+    GET_LIST_ORDERS(() -> {
+        for (Order order : orderRepository.getOrders()) {
+            System.out.println(order);
+        }
+    }),
     GET_ORDER_SUM(() -> {
         System.out.println("Введите номер заказа");
         Scanner scanner = new Scanner(System.in);
@@ -269,7 +267,6 @@ GET_LIST_ORDERS(()->{
         } else {
             System.out.println("Введено не верное значение");
         }
-
     }),
     SORT_BOOKS_NOT_SOLD(() -> {
         Scanner scanner = new Scanner(System.in);
@@ -303,7 +300,6 @@ GET_LIST_ORDERS(()->{
         System.out.println("Для просмотра информации введите id книги");
         int result = scanner.nextInt();
         bookService.getDescriptionBook(result);
-
     }),
     SORT_REQUEST_BY_COUNT(() -> {
         requestService.sortRequestByCount();
@@ -340,12 +336,10 @@ GET_LIST_ORDERS(()->{
         int yearOfPublic = scanner.nextInt();
         System.out.println("Введите стоимость книги");
         double price = scanner.nextDouble();
-        boolean statusBook=true;
-        LocalDate dateDelivery =LocalDate.now();
-        Book book= new Book(name,author,yearOfPublic,price,statusBook,dateDelivery);
+        boolean statusBook = true;
+        LocalDate dateDelivery = LocalDate.now();
+        Book book = new Book(name, author, yearOfPublic, price, statusBook, dateDelivery);
         bookRepository.addNewBook(book);
-        //bookService.addNewBookToRepository(new Book(name,author,yearOfPublic,price,statusBook,dateDelivery));
-
     }),
     GET_STATUS_BOOK(() -> {
         Scanner scanner = new Scanner(System.in);
@@ -359,19 +353,16 @@ GET_LIST_ORDERS(()->{
         long result = scanner.nextLong();
         System.out.println(bookService.getBookById(result));
     }),
-    READ_FILE_CSV_BOOK(()->{
+    READ_FILE_CSV_BOOK(() -> {
         bookService.readCsvBook();
     }),
-READ_FILE_CSV_ORDER(()->{
-    orderService.readFileCsvOrder();
-}),
-    READ_FILE_CSV_REQUEST(()->requestService.readFileCsvRequest()),
-
-
+    READ_FILE_CSV_ORDER(() -> {
+        orderService.readFileCsvOrder();
+    }),
+    READ_FILE_CSV_REQUEST(() -> requestService.readFileCsvRequest()),
     GET_COUNT_BOOK_BY_REPOSITIRY(() -> {
         System.out.println(bookService.getCountBookByRepository());
     });
-
 
     private final IAction action;
 

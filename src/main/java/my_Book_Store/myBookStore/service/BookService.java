@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.List;
 
 public interface BookService {
+
     /**
      * списать книгу со склада и перевести в статус отсутствует
      *
@@ -113,12 +114,14 @@ public interface BookService {
 
     /**
      * Создает новый файл и заполняет его книгами из репозитория
+     *
      * @throws IOException
      */
     void writeFileCsvBook() throws IOException;
 
     /**
      * провеярет существует файл или нет. Если нет, создает его и добавляет новую книгу в репозиторий и в файл
+     *
      * @param book
      */
     void addNewBookToRepository(Book book);
@@ -127,6 +130,5 @@ public interface BookService {
      * читает csv файл и сохраняет считанные данные в List Book
      */
     void readCsvBook();
-
 
 }

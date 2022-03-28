@@ -17,13 +17,8 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class RequestServiceImpl implements RequestService {
-
-
-
     private RequestRepository requestRepository;
     private BookRepository bookRepository;
-
-
 
     public RequestServiceImpl(RequestRepository requestRepository, BookRepository bookRepository) {
         this.bookRepository = bookRepository;
@@ -43,6 +38,8 @@ public class RequestServiceImpl implements RequestService {
             requestRepository.getRequest().add(request);
             current.setRequests(request);
             System.out.println("Запрос на книгу \"" + current.getNameBook() + "\" создан.");
+        } else {
+            System.out.println("Книги с указанным id нет в магазине");
         }
     }
 
@@ -58,14 +55,12 @@ public class RequestServiceImpl implements RequestService {
         for (Book book : bookRepository.getBooks()) {
             if (book.getNameBook().equalsIgnoreCase(nameBook) && book.getAuthorBook().equalsIgnoreCase(authorBook)) {
                 request = new Request(book.getId(), RequestStatus.NEW);
-                System.out.println("Запрос № " + request.getId() + " на книгу "+ book.getNameBook() + " создан");
+                System.out.println("Запрос № " + request.getId() + " на книгу " + book.getNameBook() + " создан");
                 break;
             }
         }
         System.out.println("Указанной книги c наименованием - " + nameBook +
                 " и указанного автора - " + authorBook + " нет в магазине");
-
-
         if (request != null) {
             requestRepository.getRequest().add(request);
         }
@@ -101,7 +96,7 @@ public class RequestServiceImpl implements RequestService {
                     System.out.println("Запрос № " + request.getId() + " переведен в статус закрыт");
                 }
             }
-            //System.out.println("Запроса на указанную книгу нет");
+            System.out.println("Запроса на указанную книгу нет");
         }
     }
 
@@ -110,7 +105,6 @@ public class RequestServiceImpl implements RequestService {
         bookRepository.getBooks().stream().filter(book -> book.getRequests().size() > 0)
                 .sorted((o1, o2) -> o1.getNameBook().compareTo(o2.getNameBook()))
                 .forEach(book -> System.out.println("На книгу " + book.getNameBook() + " всего " + book.getRequests().size() + " запросов."));
-
     }
 
     @Override
@@ -127,7 +121,6 @@ public class RequestServiceImpl implements RequestService {
         Path path = Paths.get(csvFile);
         File file = new File(csvFile);
         char separator = ';';
-        //if (!file.exists() && !file.isDirectory()) {
         List<Request> requestList = requestRepository.getRequest();
         try (CSVWriter writer = new CSVWriter(new FileWriter(csvFile),
                 separator,
@@ -139,9 +132,7 @@ public class RequestServiceImpl implements RequestService {
                 csvNewFile[0] = String.valueOf(request.getId());
                 csvNewFile[1] = String.valueOf(request.getIdBook());
                 csvNewFile[2] = String.valueOf(request.getRequestStatus());
-
                 writer.writeNext(csvNewFile);
-
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -149,7 +140,7 @@ public class RequestServiceImpl implements RequestService {
     }
 
     @Override
-    public void readFileCsvRequest(){
+    public void readFileCsvRequest() {
         RequestRepository requestRepository = RequestRepositoryImpl.getRequestRepository();
         List<Request> requests = requestRepository.getRequest();
         Book book = null;
@@ -163,15 +154,13 @@ public class RequestServiceImpl implements RequestService {
                         Long id = Long.parseLong(items[0]);
                         Long idBook = Long.parseLong(items[1]);
                         RequestStatus requestStatus = RequestStatus.valueOf(items[2]);
-                        Request request = new Request(idBook,requestStatus);
+                        Request request = new Request(idBook, requestStatus);
                         requests.add(request);
-
                     } catch (ArrayIndexOutOfBoundsException | NumberFormatException | NullPointerException e) {
                         System.out.println("не сработал");
                         e.printStackTrace();
                     }
                 }
-
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -189,30 +178,6 @@ public class RequestServiceImpl implements RequestService {
             }
         }
         return count;
-    }
-
-    public void readFileCsvRequest2() {
-        CsvToBean<Book> csvToBean = new CsvToBean<>();
-        String csvFilename = "requestRepository.csv";
-        CSVReader csvReader = null;
-        try {
-            csvReader = new CSVReader(new FileReader(csvFilename));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        csvToBean.setCsvReader(csvReader);
-        csvToBean.setMappingStrategy(getColumnMapping());
-        List<Book> parse = csvToBean.parse();
-        parse.forEach(System.out::println);
-
-    }
-
-    public static ColumnPositionMappingStrategy<Book> getColumnMapping() {
-        ColumnPositionMappingStrategy<Book> strategy = new ColumnPositionMappingStrategy<>();
-        strategy.setType(Book.class);
-        String[] columns = new String[]{"id", "nameBook", "authorBook", "yearOfPublic", "price", "statusBook", "dateDelivery"};
-        strategy.setColumnMapping(columns);
-        return strategy;
     }
 
 }

@@ -11,17 +11,14 @@ public class MenuController {
     BookRepository bookRepository = new BookRepositoryImpl();
     OrderRepository orderRepository = OrderRepositoryImpl.getOrderRepository();
     RequestRepository requestRepository = new RequestRepositoryImpl();
-    CustomerRepository customerRepository=new CustomerRepositoryImpl();
-
-    RequestService requestService = new RequestServiceImpl(requestRepository,bookRepository);
-    BookService bookService = new BookServiceImpl(bookRepository,requestService);
-    OrderService orderService= new OrderServiceImpl(orderRepository,bookRepository,customerRepository);
-
+    CustomerRepository customerRepository = new CustomerRepositoryImpl();
+    RequestService requestService = new RequestServiceImpl(requestRepository, bookRepository);
+    BookService bookService = new BookServiceImpl(bookRepository, requestService);
+    OrderService orderService = new OrderServiceImpl(orderRepository, bookRepository, customerRepository);
 
     private static MenuController instance;
     private Builder builder;
     private Navigator navigator;
-
     private final Scanner sc = new Scanner(System.in);
 
     private MenuController() {
@@ -38,8 +35,6 @@ public class MenuController {
         bookService.readCsvBook();
         orderService.readFileCsvOrder();
         requestService.readFileCsvRequest();
-
-
         builder = new Builder();
         builder.buildMenu();
         navigator = new Navigator(builder.getRootMenu());

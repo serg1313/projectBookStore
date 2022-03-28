@@ -11,7 +11,6 @@ public class Order extends BaseEntity {
     private long idCustomer;
     private LocalDate orderDate;
     private LocalDate completeDate;
-    private double sumOrder;
 
     public Order(LocalDate orderDate, long idCustomer, long[] bookId) {
         super(id++);
@@ -19,10 +18,6 @@ public class Order extends BaseEntity {
         this.bookId = bookId;
         orderStatus = OrderStatus.NEW;
         this.idCustomer = idCustomer;
-    }
-
-    public double getSumOrder() {
-        return sumOrder;
     }
 
     public LocalDate getCompleteDate() {

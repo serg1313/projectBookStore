@@ -12,8 +12,6 @@ public class Request extends BaseEntity {
         this.requestStatus = requestStatus;
     }
 
-
-
     public long getIdBook() {
         return idBook;
     }

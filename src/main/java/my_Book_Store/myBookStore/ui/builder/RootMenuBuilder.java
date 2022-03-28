@@ -28,7 +28,7 @@ public class RootMenuBuilder {
         menuItems.add(new MenuItem("3: Запросы", ActionEnum.REQUEST_ACTION.getAction(), nestedMenuRequest.getCurrentMenu()));
         NestedMenuImportData nestedMenuImportData = new NestedMenuImportData(currentMenu);
         nestedMenuImportData.buildMenu();
-        menuItems.add(new MenuItem("4. Загрузка базы данных", ActionEnum.IMPORT_EXPORT_DATA.getAction(),nestedMenuImportData.getCurrentMenu() ));
+        menuItems.add(new MenuItem("4. Загрузка базы данных", ActionEnum.IMPORT_EXPORT_DATA.getAction(), nestedMenuImportData.getCurrentMenu()));
         menuItems.add(new MenuItem("5: Выход из меню", ActionEnum.EXIST_ACTION.getAction(), null));
     }
 

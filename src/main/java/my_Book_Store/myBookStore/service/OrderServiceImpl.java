@@ -210,8 +210,8 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public List<Order> getListOrder() {
-        List<Order> list= new ArrayList<>();
-        for(Order order:orderRepository.getOrders()){
+        List<Order> list = new ArrayList<>();
+        for (Order order : orderRepository.getOrders()) {
             list.add(order);
         }
         return list;
@@ -261,15 +261,13 @@ public class OrderServiceImpl implements OrderService {
                 csvNewFile[3] = String.valueOf(b.getIdCustomer());
                 csvNewFile[4] = String.valueOf(b.getOrderDate());
                 csvNewFile[5] = String.valueOf(b.getCompleteDate());
-                csvNewFile[6] = String.valueOf(b.getSumOrder());
                 writer.writeNext(csvNewFile);
-
             }
         }
     }
 
     @Override
-    public void readFileCsvOrder(){
+    public void readFileCsvOrder() {
         OrderRepository orderRepository = OrderRepositoryImpl.getOrderRepository();
         List<Order> orders = orderRepository.getOrders();
         if (orders.size() == 0) {
@@ -280,23 +278,23 @@ public class OrderServiceImpl implements OrderService {
                     line.replaceAll("\\s+", "");
                     String[] items = line.split(";");
                     try {
-                        Long id = Long.parseLong(items[0]); ;
+                        Long id = Long.parseLong(items[0]);
+                        ;
                         Long[] longs = Arrays.stream(items[1].replace("[", "").replace("]", "").split(","))
-                                .map(String::trim) .map(Long::valueOf).toArray(Long[]::new);
+                                .map(String::trim).map(Long::valueOf).toArray(Long[]::new);
                         long[] primLong = new long[longs.length];
-                        for(int index = 0; index < longs.length; index++)
-                        {
+                        for (int index = 0; index < longs.length; index++) {
                             primLong[index] = longs[index];
                         }
                         OrderStatus orderStatus = OrderStatus.valueOf(items[2]);
                         long idCustomer = Long.parseLong(items[3]);
                         LocalDate orderDate = LocalDate.parse(items[4]);
-                        if(items[5].equals("null")){
+                        if (items[5].equals("null")) {
                             LocalDate comleteDate = null;
-                        }else{
+                        } else {
                             LocalDate completeDate = LocalDate.parse(items[5]);
                         }
-                        Order order = new Order(orderDate, idCustomer,primLong);
+                        Order order = new Order(orderDate, idCustomer, primLong);
                         orders.add(order);
                     } catch (ArrayIndexOutOfBoundsException | NumberFormatException | NullPointerException e) {
                         System.out.println("не сработал");
@@ -308,9 +306,7 @@ public class OrderServiceImpl implements OrderService {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
         }
-
     }
 }
 

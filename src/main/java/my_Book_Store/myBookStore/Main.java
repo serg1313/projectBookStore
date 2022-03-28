@@ -22,9 +22,7 @@ public class Main {
         MenuController menuController = MenuController.getInstance();
         menuController.run();
         menuController.close();
-
     }
-
 
 }
 

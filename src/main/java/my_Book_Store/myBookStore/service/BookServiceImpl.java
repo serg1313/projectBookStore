@@ -232,66 +232,58 @@ public class BookServiceImpl implements BookService {
         String csvFile = "bookRepository.csv";
         Path path = Paths.get(csvFile);
         File file = new File(csvFile);
-        //if (!file.exists() && !file.isDirectory()) {
-            List<Book> bookList = bookRepository.getBooks();
-            try (CSVWriter writer = new CSVWriter(new FileWriter(csvFile),
-                    CSVWriter.DEFAULT_SEPARATOR,
-                    CSVWriter.NO_QUOTE_CHARACTER,
-                    CSVWriter.DEFAULT_QUOTE_CHARACTER,
-                    CSVWriter.DEFAULT_LINE_END)) {
-                for (Book b : bookList) {
-                    String[] csvNewFile = new String[7];
-                    csvNewFile[0] = String.valueOf(b.getId());
-                    csvNewFile[1] = b.getNameBook();
-                    csvNewFile[2] = b.getAuthorBook();
-                    csvNewFile[3] = String.valueOf(b.getYearOfPublic());
-                    csvNewFile[4] = String.valueOf(b.getPrice());
-                    csvNewFile[5] = String.valueOf(b.getStatusBook());
-                    csvNewFile[6] = String.valueOf(b.getDateDelivery());
-                    writer.writeNext(csvNewFile);
+        List<Book> bookList = bookRepository.getBooks();
+        try (CSVWriter writer = new CSVWriter(new FileWriter(csvFile),
+                CSVWriter.DEFAULT_SEPARATOR,
+                CSVWriter.NO_QUOTE_CHARACTER,
+                CSVWriter.DEFAULT_QUOTE_CHARACTER,
+                CSVWriter.DEFAULT_LINE_END)) {
+            for (Book b : bookList) {
+                String[] csvNewFile = new String[7];
+                csvNewFile[0] = String.valueOf(b.getId());
+                csvNewFile[1] = b.getNameBook();
+                csvNewFile[2] = b.getAuthorBook();
+                csvNewFile[3] = String.valueOf(b.getYearOfPublic());
+                csvNewFile[4] = String.valueOf(b.getPrice());
+                csvNewFile[5] = String.valueOf(b.getStatusBook());
+                csvNewFile[6] = String.valueOf(b.getDateDelivery());
+                writer.writeNext(csvNewFile);
 
-                }
             }
-        //} else System.out.println("Файл уже существует. Можно только добавлять данные в файл");
+        }
     }
 
     @Override
     public void addNewBookToRepository(Book book) {
-
-        String csvFile ="bookRepository.csv";
+        String csvFile = "bookRepository.csv";
         File file = new File(csvFile);
-        if (!file.exists() && !file.isDirectory()){
+        if (!file.exists() && !file.isDirectory()) {
             try {
                 writeFileCsvBook();
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
-
         try {
             CSVWriter writer = new CSVWriter(new FileWriter(csvFile, true),
                     CSVWriter.DEFAULT_SEPARATOR,
                     CSVWriter.NO_QUOTE_CHARACTER,
                     CSVWriter.DEFAULT_QUOTE_CHARACTER,
                     CSVWriter.DEFAULT_LINE_END);
-
             Book b = book;
             String[] record = new String[7];
-
-            for(Book book1:bookRepository.getBooks()) {
-                if(!book.equals(book1)) {
+            for (Book book1 : bookRepository.getBooks()) {
+                if (!book.equals(book1)) {
                     record[0] = String.valueOf(b.getId());
-                    record[1]  = String.valueOf(b.getNameBook());
-                    record[2]  = String.valueOf(b.getAuthorBook());
-                    record[3]  = String.valueOf(b.getYearOfPublic());
-                    record[4]  = String.valueOf(b.getPrice());
-                    record[5]  = String.valueOf(b.getStatusBook());
-                    record[6]  = String.valueOf(b.getDateDelivery());//
-                    //record = {0, name, autor, year, price, status, delivery};
-                    //bookRepository.addNewBookInRepository(book);
-
+                    record[1] = String.valueOf(b.getNameBook());
+                    record[2] = String.valueOf(b.getAuthorBook());
+                    record[3] = String.valueOf(b.getYearOfPublic());
+                    record[4] = String.valueOf(b.getPrice());
+                    record[5] = String.valueOf(b.getStatusBook());
+                    record[6] = String.valueOf(b.getDateDelivery());
                 }
-            }writer.writeNext(record);
+            }
+            writer.writeNext(record);
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -299,8 +291,7 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-
-        public void readCsvBook() {
+    public void readCsvBook() {
         BookRepository bookRepository = BookRepositoryImpl.getBookRepository();
         List<Book> books = bookRepository.getBooks();
         if (books.size() == 0) {
@@ -327,8 +318,6 @@ public class BookServiceImpl implements BookService {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
-
         }
     }
 

@@ -32,5 +32,4 @@ public interface OrderRepository {
 
     void addNewOrder(Order order);
 
-
 }

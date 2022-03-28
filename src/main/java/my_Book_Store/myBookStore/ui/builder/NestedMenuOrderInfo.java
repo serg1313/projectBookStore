@@ -17,7 +17,7 @@ public class NestedMenuOrderInfo {
 
     public void buildMenu() {
         List<MenuItem> menuItems = new ArrayList<>();
-        currentMenu = new Menu("ИНформация о заказах", menuItems);
+        currentMenu = new Menu("Информация о заказах", menuItems);
         menuItems.add(new MenuItem("1: Получить список всех заказов", ActionEnum.GET_LIST_ORDERS.getAction(), null));
         menuItems.add(new MenuItem("2: Получить список книг в конкретном заказе", ActionEnum.GET_BOOK_BY_ORDER.getAction(), null));
         menuItems.add(new MenuItem("3: Получить информацию из заказа о покупателе, книгах и сумме заказа", ActionEnum.GET_INFO_ORDER.getAction(), null));

@@ -15,14 +15,14 @@ public class NestedMenuImportData {
         this.rootMenu = rootMenu;
     }
 
-    public void buildMenu(){
+    public void buildMenu() {
         List<MenuItem> list = new ArrayList<>();
         currentMenu = new Menu("Загрузка из базы данных", list);
         list.add(new MenuItem("1: Загрузка списка книг из базы данных", ActionEnum.READ_FILE_CSV_BOOK.getAction(), null));
-        list.add(new MenuItem("2: Загрузка списка заказов из базы данных",ActionEnum.READ_FILE_CSV_ORDER.getAction(),null));
-        list.add(new MenuItem("3: Загрузка списка запросов на книги из базы данных",ActionEnum.READ_FILE_CSV_REQUEST.getAction(),null));
-        list.add(new MenuItem("4: Загрузка списка покупателей из базы данных",null,null));
-        list.add(new MenuItem("5: Выход в предыдущее меню",null,rootMenu));
+        list.add(new MenuItem("2: Загрузка списка заказов из базы данных", ActionEnum.READ_FILE_CSV_ORDER.getAction(), null));
+        list.add(new MenuItem("3: Загрузка списка запросов на книги из базы данных", ActionEnum.READ_FILE_CSV_REQUEST.getAction(), null));
+        list.add(new MenuItem("4: Загрузка списка покупателей из базы данных", null, null));
+        list.add(new MenuItem("5: Выход в предыдущее меню", null, rootMenu));
     }
 
     public Menu getRootMenu() {
