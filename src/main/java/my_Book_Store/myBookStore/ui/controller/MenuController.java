@@ -1,24 +1,14 @@
-package my_Book_Store.myBookStore.ui.controller;
+package Task_6.myBookStore.ui.controller;
 
-import my_Book_Store.myBookStore.repository.*;
-import my_Book_Store.myBookStore.service.*;
-import my_Book_Store.myBookStore.ui.builder.Builder;
+import Task_6.myBookStore.ui.builder.Builder;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class MenuController {
-    BookRepository bookRepository = new BookRepositoryImpl();
-    OrderRepository orderRepository = OrderRepositoryImpl.getOrderRepository();
-    RequestRepository requestRepository = new RequestRepositoryImpl();
-    CustomerRepository customerRepository = new CustomerRepositoryImpl();
-    RequestService requestService = new RequestServiceImpl(requestRepository, bookRepository);
-    BookService bookService = new BookServiceImpl(bookRepository, requestService);
-    OrderService orderService = new OrderServiceImpl(orderRepository, bookRepository, customerRepository);
-
     private static MenuController instance;
     private Builder builder;
     private Navigator navigator;
+
     private final Scanner sc = new Scanner(System.in);
 
     private MenuController() {
@@ -32,9 +22,6 @@ public class MenuController {
     }
 
     public void run() {
-        bookService.readCsvBook();
-        orderService.readFileCsvOrder();
-        requestService.readFileCsvRequest();
         builder = new Builder();
         builder.buildMenu();
         navigator = new Navigator(builder.getRootMenu());
@@ -55,10 +42,7 @@ public class MenuController {
         return menuChois;
     }
 
-    public void close() throws IOException {
-        bookService.writeFileCsvBook();
-        orderService.writeFileCsvOrder();
-        requestService.writeFileCsvRequest();
+    public void close() {
         sc.close();
     }
 }

@@ -1,6 +1,6 @@
-package my_Book_Store.myBookStore.ui.controller;
+package Task_6.myBookStore.ui.controller;
 
-import my_Book_Store.myBookStore.ui.action.IAction;
+import Task_6.myBookStore.ui.action.IAction;
 
 public class MenuItem {
     private String title;

@@ -1,26 +1,23 @@
-package my_Book_Store.myBookStore.repository;
+package Task_6.myBookStore.repository;
 
-import my_Book_Store.myBookStore.model.Request;
+import Task_6.myBookStore.model.Book;
+import Task_6.myBookStore.model.Request;
+import Task_6.myBookStore.model.RequestStatus;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 public class RequestRepositoryImpl implements RequestRepository {
-    private static RequestRepository requestRepository;
     private List<Request> requests = new ArrayList<>();
-
-    public static RequestRepository getRequestRepository() {
-        if (requestRepository == null) {
-            requestRepository = new RequestRepositoryImpl();
-        }
-        return requestRepository;
-    }
 
     public RequestRepositoryImpl() {
         initRequest();
     }
 
     private void initRequest() {
+        requests.add(new Request(new Book
+                ("Иван царевич", "народ", 0, 0, true, LocalDate.of(2022, 2, 1)), RequestStatus.NEW));
     }
 
     /**
@@ -31,11 +28,6 @@ public class RequestRepositoryImpl implements RequestRepository {
     @Override
     public List<Request> getRequest() {
         return requests;
-    }
-
-    @Override
-    public void addNewRequest(long idBook) {
-
     }
 
 }

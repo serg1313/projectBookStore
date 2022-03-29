@@ -1,6 +1,6 @@
-package my_Book_Store.myBookStore.repository;
+package Task_6.myBookStore.repository;
 
-import my_Book_Store.myBookStore.model.Request;
+import Task_6.myBookStore.model.Request;
 
 import java.util.List;
 
@@ -12,7 +12,5 @@ public interface RequestRepository {
      * @return
      */
     List<Request> getRequest();
-
-    void addNewRequest(long idBook);
 
 }

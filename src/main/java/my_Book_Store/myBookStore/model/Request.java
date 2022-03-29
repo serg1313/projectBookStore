@@ -1,23 +1,22 @@
-package my_Book_Store.myBookStore.model;
+package Task_6.myBookStore.model;
 
 public class Request extends BaseEntity {
     private static long id = 1;
-
-    private long idBook;
+    private Book book;
     private RequestStatus requestStatus;
 
-    public Request(long idBook, RequestStatus requestStatus) {
+    public Request(Book book, RequestStatus requestStatus) {
         super(id++);
-        this.idBook = idBook;
+        this.book = book;
         this.requestStatus = requestStatus;
     }
 
-    public long getIdBook() {
-        return idBook;
+    public Book getBook() {
+        return book;
     }
 
-    public void setIdBook(long idBook) {
-        this.idBook = idBook;
+    public void setBook(Book book) {
+        this.book = book;
     }
 
     public RequestStatus getRequestStatus() {
@@ -34,10 +33,9 @@ public class Request extends BaseEntity {
 
     @Override
     public String toString() {
-        return "Request{" +
-                " id = " + getId() +
-                " idBook = " + idBook +
-                ", requestStatus = " + requestStatus +
+        return "Request " + getId() + "{" +
+                "book=" + book +
+                ", requestStatus=" + requestStatus +
                 '}';
     }
 }

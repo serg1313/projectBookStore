@@ -1,12 +1,10 @@
-package my_Book_Store.myBookStore.model;
+package Task_6.myBookStore.model;
 
-import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
-public class Book extends BaseEntity implements Comparable<Book>, Serializable {
+public class Book extends BaseEntity implements Comparable<Book> {
     private static long id = 1;
     private String nameBook;
     private String authorBook;
@@ -14,7 +12,6 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
     private double price;
     private boolean statusBook;
     private LocalDate dateDelivery;
-
     private List<Request> requests = new ArrayList<>();
 
     public Book(Book book) {
@@ -35,10 +32,6 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
         this.price = price;
         this.statusBook = statusBook;
         this.dateDelivery = dateDelivery;
-    }
-
-    public Book(long id) {
-        super(id);
     }
 
     public boolean getStatusBook() {
@@ -119,17 +112,6 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
                 '}';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Book book = (Book) o;
-        return nameBook.equals(book.nameBook) && authorBook.equals(book.authorBook);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(nameBook, authorBook);
-    }
 }
 

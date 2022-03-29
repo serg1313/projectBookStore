@@ -1,4 +1,4 @@
-package my_Book_Store.myBookStore.model;
+package Task_6.myBookStore.model;
 
 public enum RequestStatus {
     NEW,

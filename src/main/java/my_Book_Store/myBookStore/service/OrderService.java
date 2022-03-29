@@ -1,10 +1,9 @@
-package my_Book_Store.myBookStore.service;
+package Task_6.myBookStore.service;
 
-import my_Book_Store.myBookStore.model.Book;
-import my_Book_Store.myBookStore.model.Order;
-import my_Book_Store.myBookStore.model.OrderStatus;
+import Task_6.myBookStore.model.Book;
+import Task_6.myBookStore.model.Order;
+import Task_6.myBookStore.model.OrderStatus;
 
-import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -65,8 +64,6 @@ public interface OrderService {
      * @return
      */
     List<Order> getOrderByStatus(OrderStatus orderStatus);
-
-    List<Order> getListOrder();
 
     /**
      * сортировка списка заказов по статусу заказа
@@ -133,12 +130,4 @@ public interface OrderService {
      */
     int getCountComletedOrdersByPeriod(LocalDate dateStart, LocalDate dateEnd);
 
-    void writeFileCsvOrder() throws IOException;
-
-    void readFileCsvOrder();
-
-
-
-    }
-
-
+}

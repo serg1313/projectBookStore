@@ -1,13 +1,8 @@
-package my_Book_Store.myBookStore.service;
+package Task_6.myBookStore.service;
 
-import my_Book_Store.myBookStore.model.Book;
-import my_Book_Store.myBookStore.repository.BookRepository;
-import my_Book_Store.myBookStore.repository.BookRepositoryImpl;
-import com.opencsv.CSVWriter;
+import Task_6.myBookStore.model.Book;
+import Task_6.myBookStore.repository.BookRepository;
 
-import java.io.*;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.Collections;
 import java.util.Comparator;
@@ -25,7 +20,7 @@ public class BookServiceImpl implements BookService {
     }
 
     /**
-     * списать книгу со склада и перевести в статус отсутствует
+     * списать книгу сос клада и перевести в статус отсутствует
      *
      * @param id
      */
@@ -220,106 +215,5 @@ public class BookServiceImpl implements BookService {
                 ". Цена книги - " + book.getPrice() + ". Дата издание книги - " + book.getYearOfPublic());
 
     }
-
-    @Override
-    /**
-     * создает csv файл и заполняет его книгами из хранилища
-     *
-     * @param nameFile
-     * @throws IOException
-     */
-    public void writeFileCsvBook() throws IOException {
-        String csvFile = "bookRepository.csv";
-        Path path = Paths.get(csvFile);
-        File file = new File(csvFile);
-        List<Book> bookList = bookRepository.getBooks();
-        try (CSVWriter writer = new CSVWriter(new FileWriter(csvFile),
-                CSVWriter.DEFAULT_SEPARATOR,
-                CSVWriter.NO_QUOTE_CHARACTER,
-                CSVWriter.DEFAULT_QUOTE_CHARACTER,
-                CSVWriter.DEFAULT_LINE_END)) {
-            for (Book b : bookList) {
-                String[] csvNewFile = new String[7];
-                csvNewFile[0] = String.valueOf(b.getId());
-                csvNewFile[1] = b.getNameBook();
-                csvNewFile[2] = b.getAuthorBook();
-                csvNewFile[3] = String.valueOf(b.getYearOfPublic());
-                csvNewFile[4] = String.valueOf(b.getPrice());
-                csvNewFile[5] = String.valueOf(b.getStatusBook());
-                csvNewFile[6] = String.valueOf(b.getDateDelivery());
-                writer.writeNext(csvNewFile);
-
-            }
-        }
-    }
-
-    @Override
-    public void addNewBookToRepository(Book book) {
-        String csvFile = "bookRepository.csv";
-        File file = new File(csvFile);
-        if (!file.exists() && !file.isDirectory()) {
-            try {
-                writeFileCsvBook();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        try {
-            CSVWriter writer = new CSVWriter(new FileWriter(csvFile, true),
-                    CSVWriter.DEFAULT_SEPARATOR,
-                    CSVWriter.NO_QUOTE_CHARACTER,
-                    CSVWriter.DEFAULT_QUOTE_CHARACTER,
-                    CSVWriter.DEFAULT_LINE_END);
-            Book b = book;
-            String[] record = new String[7];
-            for (Book book1 : bookRepository.getBooks()) {
-                if (!book.equals(book1)) {
-                    record[0] = String.valueOf(b.getId());
-                    record[1] = String.valueOf(b.getNameBook());
-                    record[2] = String.valueOf(b.getAuthorBook());
-                    record[3] = String.valueOf(b.getYearOfPublic());
-                    record[4] = String.valueOf(b.getPrice());
-                    record[5] = String.valueOf(b.getStatusBook());
-                    record[6] = String.valueOf(b.getDateDelivery());
-                }
-            }
-            writer.writeNext(record);
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Override
-    public void readCsvBook() {
-        BookRepository bookRepository = BookRepositoryImpl.getBookRepository();
-        List<Book> books = bookRepository.getBooks();
-        if (books.size() == 0) {
-            String csv = "bookRepository.csv";
-            try (BufferedReader reader = new BufferedReader(new FileReader(csv));) {
-                String line = null;
-                while ((line = reader.readLine()) != null) {
-                    String[] items = line.split(",");
-                    try {
-                        Long id = Long.parseLong(items[0]);
-                        String name = items[1];
-                        String autor = items[2];
-                        int year = Integer.parseInt(items[3]);
-                        double price = Double.parseDouble(items[4]);
-                        boolean status = Boolean.parseBoolean(items[5]);
-                        LocalDate date = LocalDate.parse(items[6]);
-                        Book book = new Book(name, autor, year, price, status, date);
-                        books.add(book);
-                    } catch (ArrayIndexOutOfBoundsException | NumberFormatException | NullPointerException e) {
-                        System.out.println("не сработал");
-                        e.printStackTrace();
-                    }
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
 
 }

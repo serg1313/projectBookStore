@@ -1,17 +1,17 @@
-package my_Book_Store.myBookStore.service;
+package Task_6.myBookStore.service;
 
-import my_Book_Store.myBookStore.model.Book;
-import my_Book_Store.myBookStore.model.Customer;
-import my_Book_Store.myBookStore.model.Order;
-import my_Book_Store.myBookStore.model.OrderStatus;
-import my_Book_Store.myBookStore.repository.*;
-import com.opencsv.CSVWriter;
+import Task_6.myBookStore.model.Book;
+import Task_6.myBookStore.model.Customer;
+import Task_6.myBookStore.model.Order;
+import Task_6.myBookStore.model.OrderStatus;
+import Task_6.myBookStore.repository.BookRepository;
+import Task_6.myBookStore.repository.CustomerRepository;
+import Task_6.myBookStore.repository.OrderRepository;
 
-import java.io.*;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.time.LocalDate;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class OrderServiceImpl implements OrderService {
@@ -209,15 +209,6 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public List<Order> getListOrder() {
-        List<Order> list = new ArrayList<>();
-        for (Order order : orderRepository.getOrders()) {
-            list.add(order);
-        }
-        return list;
-    }
-
-    @Override
     public List<Order> sortOrderByStatus(List<Order> orders) {
         orders.sort((o1, o2) -> o1.getOrderStatus().compareTo(o2.getOrderStatus()));
         return orders;
@@ -241,73 +232,6 @@ public class OrderServiceImpl implements OrderService {
         return count;
     }
 
-    @Override
-    public void writeFileCsvOrder() throws IOException {
-        String csvFile = "orderRepository.csv";
-        Path path = Paths.get(csvFile);
-        File file = new File(csvFile);
-        char separator = ';';
-        List<Order> orderList = orderRepository.getOrders();
-        try (CSVWriter writer = new CSVWriter(new FileWriter(csvFile),
-                separator,
-                CSVWriter.NO_QUOTE_CHARACTER,
-                CSVWriter.NO_QUOTE_CHARACTER,
-                CSVWriter.DEFAULT_LINE_END)) {
-            for (Order b : orderList) {
-                String[] csvNewFile = new String[7];
-                csvNewFile[0] = String.valueOf(b.getId());
-                csvNewFile[1] = Arrays.toString(b.getBookId());
-                csvNewFile[2] = String.valueOf(b.getOrderStatus());
-                csvNewFile[3] = String.valueOf(b.getIdCustomer());
-                csvNewFile[4] = String.valueOf(b.getOrderDate());
-                csvNewFile[5] = String.valueOf(b.getCompleteDate());
-                writer.writeNext(csvNewFile);
-            }
-        }
-    }
-
-    @Override
-    public void readFileCsvOrder() {
-        OrderRepository orderRepository = OrderRepositoryImpl.getOrderRepository();
-        List<Order> orders = orderRepository.getOrders();
-        if (orders.size() == 0) {
-            String csv = "orderRepository.csv";
-            try (BufferedReader reader = new BufferedReader(new FileReader(csv));) {
-                String line = null;
-                while ((line = reader.readLine()) != null) {
-                    line.replaceAll("\\s+", "");
-                    String[] items = line.split(";");
-                    try {
-                        Long id = Long.parseLong(items[0]);
-                        ;
-                        Long[] longs = Arrays.stream(items[1].replace("[", "").replace("]", "").split(","))
-                                .map(String::trim).map(Long::valueOf).toArray(Long[]::new);
-                        long[] primLong = new long[longs.length];
-                        for (int index = 0; index < longs.length; index++) {
-                            primLong[index] = longs[index];
-                        }
-                        OrderStatus orderStatus = OrderStatus.valueOf(items[2]);
-                        long idCustomer = Long.parseLong(items[3]);
-                        LocalDate orderDate = LocalDate.parse(items[4]);
-                        if (items[5].equals("null")) {
-                            LocalDate comleteDate = null;
-                        } else {
-                            LocalDate completeDate = LocalDate.parse(items[5]);
-                        }
-                        Order order = new Order(orderDate, idCustomer, primLong);
-                        orders.add(order);
-                    } catch (ArrayIndexOutOfBoundsException | NumberFormatException | NullPointerException e) {
-                        System.out.println("не сработал");
-                        e.printStackTrace();
-                    }
-                }
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
 }
 
 

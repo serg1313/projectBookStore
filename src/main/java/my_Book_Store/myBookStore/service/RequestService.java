@@ -1,8 +1,6 @@
-package my_Book_Store.myBookStore.service;
+package Task_6.myBookStore.service;
 
-import my_Book_Store.myBookStore.model.Request;
-
-import java.io.IOException;
+import Task_6.myBookStore.model.Request;
 
 public interface RequestService {
 
@@ -24,10 +22,10 @@ public interface RequestService {
     /**
      * вернуть запрос по id книги
      *
-     * @param bookId
+     * @param id
      * @return
      */
-    Request getRequestByBookId(long bookId);
+    Request getRequestByBookId(long id);
 
     /**
      * перевести статус запроса на статус закрыт по id книги
@@ -42,7 +40,7 @@ public interface RequestService {
      * @param idBook
      * @return
      */
-    int getCountRequestBookById(long idBook);
+    int sortRequestBookById(long idBook);
 
     /**
      * сортировать запросы по имени книги
@@ -59,8 +57,5 @@ public interface RequestService {
      */
     void sortRequestByCount();
 
-    void writeFileCsvRequest() throws IOException;
-
-    void readFileCsvRequest();
 
 }
