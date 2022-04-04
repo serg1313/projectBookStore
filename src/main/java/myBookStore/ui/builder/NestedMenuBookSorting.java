@@ -1,0 +1,46 @@
+package myBookStore.ui.builder;
+
+import myBookStore.ui.action.ActionEnum;
+import myBookStore.ui.controller.Menu;
+import myBookStore.ui.controller.MenuItem;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class NestedMenuBookSorting {
+    private static final Logger log = LogManager.getLogger(NestedMenuBookSorting.class.getName());
+    private Menu rootMenu;
+    private Menu currentMenu;
+
+    public NestedMenuBookSorting(Menu rootMenu) {
+        this.rootMenu = rootMenu;
+    }
+
+    public void buildMenu() {
+        log.info("calling a method buildMenu");
+        List<MenuItem> itemList = new ArrayList<>();
+        currentMenu = new Menu("Меню сортировки книг", itemList);
+        itemList.add(new MenuItem("1: Cортировка книг по названию", ActionEnum.SORT_BOOK_BY_NAME.getAction(), null));
+        itemList.add(new MenuItem("2: Cортировка книг по дате издания", ActionEnum.SORT_BOOK_BY_DATE_PUBLIC.getAction(), null));
+        itemList.add(new MenuItem("3: Cортировка книг по стоимости", ActionEnum.SORT_BOOK_BY_PRICE.getAction(), null));
+        itemList.add(new MenuItem("4: Cортировка книг по наличию на складе", ActionEnum.SORT_BOOK_BY_STOCK_AVAILABILITY.getAction(), null));
+        itemList.add(new MenuItem("5: Cортировка книг по  id", ActionEnum.SORT_BOOK_BY_ID.getAction(), null));
+        itemList.add(new MenuItem("6: Cортировка книг по дате поступления", ActionEnum.SORT_BOOK_BY_DATE_DELIVERY.getAction(), null));
+        itemList.add(new MenuItem("7: Выход в предыдущее меню", null, rootMenu));
+        log.info("method buildMenu completed");
+    }
+
+    public Menu getRootMenu() {
+        log.info("calling a method getRootMenu");
+        log.info("method getRootMenu completed");
+        return rootMenu;
+    }
+
+    public Menu getCurrentMenu() {
+        log.info("calling a method getCurrentMenu");
+        log.info("method getCurrentMenu completed");
+        return currentMenu;
+    }
+}
