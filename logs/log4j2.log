@@ -91,3 +91,1675 @@
 2022-04-04 18:08:59,495 INFO m.u.b.Builder [main] method buildMenu completed
 2022-04-04 18:08:59,497 INFO m.u.b.Builder [main] calling a method getRootMenu
 2022-04-04 18:08:59,498 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-13 11:19:22,824 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-13 11:19:22,837 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-13 11:19:22,838 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-13 11:19:22,838 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-13 11:19:22,840 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-13 11:19:22,841 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-13 11:19:22,841 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-13 11:19:22,841 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-13 11:19:22,841 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-13 11:19:22,842 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-13 11:19:22,843 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-13 11:19:22,845 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-13 11:19:22,851 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-13 11:19:22,852 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-13 11:19:22,853 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-13 11:19:22,853 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-13 11:19:22,853 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-13 11:19:22,853 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-13 11:19:22,856 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-13 11:19:22,859 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-13 11:19:22,861 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-13 11:19:22,861 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-13 11:19:22,861 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-13 11:19:22,861 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-13 11:19:22,861 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-13 11:19:22,861 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-13 11:19:22,861 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-13 11:19:22,862 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-13 11:19:22,862 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-13 11:19:22,862 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-13 11:19:22,862 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-13 11:19:22,862 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-13 11:19:22,862 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-13 11:19:22,863 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-13 11:19:22,867 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-13 11:19:22,868 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-13 11:19:22,868 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-13 11:19:22,868 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-13 11:19:22,896 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-13 11:19:22,896 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-13 11:19:22,897 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-13 11:19:22,897 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-13 11:19:22,897 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-13 11:19:22,897 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-13 11:19:22,909 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-13 11:19:22,910 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-13 11:19:22,910 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-13 11:19:22,910 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-13 11:19:22,910 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-13 11:19:22,910 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-13 11:19:22,911 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-13 11:19:22,923 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-13 11:19:22,925 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-13 11:19:22,928 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-13 11:19:22,929 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-13 11:19:22,946 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-13 11:19:22,946 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-13 11:19:22,946 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-13 11:19:22,947 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-13 11:19:22,947 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-13 11:19:22,947 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-13 11:19:22,947 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-13 11:19:22,948 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-13 11:19:22,949 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-13 11:19:22,949 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-13 11:19:22,949 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-13 11:19:22,949 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-13 11:19:22,950 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-13 11:19:22,950 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-13 11:19:22,951 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-13 11:19:22,953 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-13 11:19:22,953 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-13 11:19:22,953 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-13 11:19:22,953 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-13 11:19:22,955 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-13 11:19:22,955 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-13 11:19:22,955 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-13 11:19:22,955 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-13 11:19:22,955 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-13 11:19:22,956 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-13 11:19:22,956 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-13 11:19:22,956 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-13 11:19:22,957 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-13 11:19:22,958 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-13 11:19:22,958 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-13 11:19:22,958 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-13 11:19:22,958 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-13 11:19:22,958 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-13 11:19:22,959 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-13 11:19:22,959 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-13 11:19:22,959 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-13 11:19:22,960 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-13 11:19:22,960 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 10:41:24,387 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 10:41:24,407 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:41:24,407 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:41:24,407 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:41:24,409 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:41:24,410 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 10:41:24,410 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 10:41:24,410 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 10:41:24,410 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:41:24,412 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:41:24,412 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:41:24,413 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:41:24,418 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:41:24,420 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 10:41:24,421 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:41:24,421 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:41:24,421 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:41:24,424 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 10:41:24,433 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:41:24,437 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:41:24,437 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 10:41:24,437 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 10:42:57,012 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 10:42:57,028 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:42:57,028 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:42:57,029 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:42:57,033 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:42:57,033 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 10:42:57,033 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 10:42:57,033 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 10:42:57,034 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:42:57,035 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:42:57,035 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:42:57,036 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:42:57,053 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:42:57,057 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 10:42:57,057 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:42:57,057 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:42:57,058 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:42:57,059 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 10:42:57,062 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:42:57,065 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:42:57,096 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 10:42:57,096 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 10:45:13,616 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 10:45:13,629 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:45:13,629 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:45:13,637 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:45:13,639 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:45:13,640 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 10:45:13,640 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 10:45:13,640 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 10:45:13,640 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:45:13,641 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:45:13,642 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:45:13,642 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:45:13,652 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:45:13,654 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 10:45:13,654 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:45:13,655 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:45:13,655 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:45:13,655 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 10:45:13,657 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:45:13,660 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:45:13,661 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:45:13,661 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:52:06,592 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 10:52:06,610 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:52:06,610 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:52:06,610 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:52:06,613 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:52:06,613 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 10:52:06,613 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 10:52:06,613 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 10:52:06,613 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:52:06,615 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:52:06,616 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:52:06,616 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:52:06,620 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:52:06,624 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 10:52:06,624 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:52:06,625 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:52:06,625 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:52:06,625 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 10:52:06,628 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:52:06,631 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:52:06,632 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:52:06,633 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:52:06,633 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:52:06,633 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:52:06,634 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:52:06,634 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:52:06,634 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:52:06,634 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:52:06,635 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:52:06,635 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:52:06,635 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:52:06,635 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:52:06,635 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:52:06,635 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:52:06,644 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 10:52:06,644 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 10:52:06,644 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:52:06,644 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:52:06,692 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 10:52:06,692 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 10:52:06,692 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:52:06,692 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:52:06,693 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 10:52:06,693 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 10:52:06,712 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 10:52:06,713 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 10:52:06,713 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 10:52:06,713 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 10:52:06,713 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 10:52:06,714 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 10:52:06,714 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 10:52:06,722 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 10:52:06,724 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 10:52:06,728 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 10:52:06,737 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 10:52:06,841 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 10:52:06,842 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 10:52:06,842 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 10:52:06,845 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 10:52:06,846 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 10:52:06,846 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 10:52:06,846 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 10:52:06,848 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 10:52:06,848 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 10:52:06,849 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 10:52:06,849 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 10:52:06,849 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 10:52:06,849 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 10:52:06,849 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 10:52:06,852 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 10:52:06,854 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 10:52:06,855 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 10:52:06,855 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 10:52:06,855 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 10:52:06,857 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 10:52:06,857 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 10:52:06,858 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 10:52:06,859 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 10:52:06,859 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 10:52:06,861 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 10:52:06,861 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 10:52:06,861 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 10:52:06,862 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 10:52:06,863 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 10:52:06,863 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 10:52:06,864 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 10:52:06,864 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 10:52:06,864 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 10:52:06,864 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 10:52:06,864 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 10:52:06,865 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 10:52:06,866 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 10:52:06,867 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 10:52:29,870 INFO m.s.OrderServiceImpl [main] calling a method getBookByOrder
+2022-04-14 10:52:29,870 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderById
+2022-04-14 10:52:29,870 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 10:52:29,871 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 10:52:29,871 INFO m.r.OrderRepositoryImpl [main] method getOrderById completed
+2022-04-14 10:52:29,871 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 10:52:29,871 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:52:29,871 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:52:29,871 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 10:52:29,871 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:52:29,871 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:52:29,872 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 10:52:29,872 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:52:29,872 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:52:29,872 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 10:52:29,872 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:52:29,872 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:52:29,872 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 10:52:29,872 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:52:29,872 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:54:48,707 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 10:54:48,727 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:54:48,727 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:54:48,728 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:54:49,054 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:54:49,055 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 10:54:49,055 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 10:54:49,055 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 10:54:49,056 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:54:49,064 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:54:49,064 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:54:49,064 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:54:49,072 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:54:49,078 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 10:54:49,078 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:54:49,079 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:54:49,079 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:54:49,079 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 10:54:49,085 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:54:49,089 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:54:49,093 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:54:49,093 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:54:49,093 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:54:49,093 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:54:49,094 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:54:49,094 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:54:49,094 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:54:49,094 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:54:49,094 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:54:49,095 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:54:49,095 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:54:49,095 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:54:49,095 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:54:49,095 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:54:49,129 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 10:54:49,130 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 10:54:49,130 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:54:49,130 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:54:49,221 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 10:54:49,221 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 10:54:49,221 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:54:49,221 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:54:49,222 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 10:54:49,222 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 10:54:49,257 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 10:54:49,258 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 10:54:49,258 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 10:54:49,258 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 10:54:49,258 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 10:54:49,259 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 10:54:49,259 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 10:54:49,265 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 10:54:49,269 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 10:54:49,277 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 10:54:49,280 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 10:54:49,381 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 10:54:49,381 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 10:54:49,381 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 10:54:49,384 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 10:54:49,384 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 10:54:49,384 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 10:54:49,384 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 10:54:49,387 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 10:54:49,388 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 10:54:49,388 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 10:54:49,388 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 10:54:49,388 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 10:54:49,388 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 10:54:49,388 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 10:54:49,391 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 10:54:49,395 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 10:54:49,395 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 10:54:49,395 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 10:54:49,396 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 10:54:49,398 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 10:54:49,398 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 10:54:49,398 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 10:54:49,398 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 10:54:49,399 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 10:54:49,401 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 10:54:49,401 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 10:54:49,401 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 10:54:49,401 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 10:54:49,404 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 10:54:49,404 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 10:54:49,404 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 10:54:49,404 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 10:54:49,404 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 10:54:49,405 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 10:54:49,405 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 10:54:49,405 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 10:54:49,407 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 10:54:49,407 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 10:55:08,819 INFO m.s.OrderServiceImpl [main] calling a method getBookByOrder
+2022-04-14 10:55:08,819 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderById
+2022-04-14 10:55:08,819 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 10:55:08,819 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 10:55:08,819 INFO m.r.OrderRepositoryImpl [main] method getOrderById completed
+2022-04-14 10:55:08,820 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 10:55:08,820 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:55:08,820 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:55:08,820 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 10:55:08,820 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:55:08,820 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:55:08,820 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 10:55:08,820 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:55:08,820 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:55:08,821 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 10:55:08,821 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:55:08,821 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:55:08,821 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 10:55:08,821 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:55:08,821 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:55:40,285 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 10:55:40,303 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:55:40,303 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:55:40,303 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:55:40,476 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:55:40,476 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 10:55:40,477 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 10:55:40,477 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 10:55:40,477 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:55:40,482 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:55:40,482 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:55:40,482 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:55:40,494 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:55:40,502 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 10:55:40,502 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:55:40,503 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:55:40,503 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:55:40,503 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 10:55:40,508 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:55:40,512 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:55:40,516 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:55:40,516 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:55:40,516 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:55:40,517 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:55:40,517 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:55:40,517 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:55:40,517 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:55:40,517 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:55:40,517 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:55:40,518 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:55:40,518 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:55:40,518 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:55:40,519 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:55:40,520 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:55:40,560 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 10:55:40,560 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 10:55:40,560 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 10:55:40,560 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 10:55:40,803 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 10:55:40,803 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 10:55:40,803 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:55:40,803 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:55:40,804 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 10:55:40,804 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 10:55:40,871 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 10:55:40,872 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 10:55:40,872 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 10:55:40,872 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 10:55:40,872 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 10:55:40,872 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 10:55:40,873 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 10:55:40,878 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 10:55:40,880 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 10:55:40,887 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 10:55:40,892 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 10:55:41,029 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 10:55:41,030 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 10:55:41,030 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 10:55:41,033 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 10:55:41,033 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 10:55:41,034 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 10:55:41,034 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 10:55:41,037 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 10:55:41,037 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 10:55:41,038 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 10:55:41,038 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 10:55:41,038 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 10:55:41,039 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 10:55:41,039 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 10:55:41,043 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 10:55:41,051 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 10:55:41,051 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 10:55:41,052 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 10:55:41,052 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 10:55:41,056 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 10:55:41,056 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 10:55:41,057 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 10:55:41,057 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 10:55:41,057 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 10:55:41,078 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 10:55:41,078 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 10:55:41,079 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 10:55:41,079 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 10:55:41,089 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 10:55:41,090 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 10:55:41,090 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 10:55:41,090 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 10:55:41,091 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 10:55:41,091 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 10:55:41,091 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 10:55:41,091 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 10:55:41,097 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 10:55:41,097 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 10:56:03,934 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 10:56:03,951 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:56:03,951 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:56:03,951 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:56:04,190 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:56:04,190 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 10:56:04,190 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 10:56:04,190 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 10:56:04,191 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:56:04,194 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:56:04,194 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:56:04,195 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:56:04,201 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:56:04,205 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 10:56:04,206 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:56:04,206 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:56:04,207 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:56:04,207 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 10:56:04,214 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:56:04,218 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:56:04,221 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 10:56:04,221 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 10:56:04,221 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 10:56:04,222 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 10:56:04,222 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 10:56:04,222 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 10:56:04,222 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 10:56:04,222 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 10:56:04,223 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 10:56:04,223 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 10:56:04,223 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 10:56:04,223 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 10:56:04,223 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 10:56:04,223 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 10:56:12,284 INFO m.r.OrderRepositoryImpl [main] calling a method 
+2022-04-14 10:57:51,831 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 11:01:01,248 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 11:01:01,248 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:01:01,249 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:01:01,333 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 11:01:01,334 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 11:01:01,334 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 11:01:01,334 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 11:01:01,334 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 11:01:01,334 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 11:01:01,370 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 11:01:01,370 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 11:01:01,371 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 11:01:01,371 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 11:01:01,371 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 11:01:01,371 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 11:01:01,371 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 11:01:01,374 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 11:01:01,376 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 11:01:01,381 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 11:01:01,383 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 11:01:01,435 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 11:01:01,435 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 11:01:01,435 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 11:01:01,437 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 11:01:01,438 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 11:01:01,438 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 11:01:01,438 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 11:01:01,440 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 11:01:01,440 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 11:01:01,440 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 11:01:01,441 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 11:01:01,441 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 11:01:01,441 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 11:01:01,441 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 11:01:01,443 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 11:01:01,445 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 11:01:01,446 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 11:01:01,446 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 11:01:01,446 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 11:01:01,448 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 11:01:01,448 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 11:01:01,449 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 11:01:01,449 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 11:01:01,449 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 11:01:01,452 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 11:01:01,452 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 11:01:01,452 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 11:01:01,453 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 11:01:01,455 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 11:01:01,456 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 11:01:01,456 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 11:01:01,456 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 11:01:01,456 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 11:01:01,456 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 11:01:01,456 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 11:01:01,457 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 11:01:01,459 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 11:01:01,460 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 11:01:55,338 INFO m.s.OrderServiceImpl [main] calling a method getBookByOrder
+2022-04-14 11:01:55,338 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderById
+2022-04-14 11:01:55,339 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 11:01:55,339 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 11:01:55,339 INFO m.r.OrderRepositoryImpl [main] method getOrderById completed
+2022-04-14 11:01:55,339 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:01:55,339 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:01:55,339 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:01:55,339 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:01:55,339 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:01:55,340 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:01:55,340 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:01:55,340 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:01:55,340 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:01:55,340 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:01:55,340 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:01:55,340 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:01:55,340 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:01:55,340 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:01:55,340 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:06:16,705 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 11:06:16,722 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 11:06:16,722 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 11:06:16,722 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 11:06:16,724 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 11:06:16,725 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 11:06:16,725 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 11:06:16,725 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 11:06:16,726 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 11:06:16,731 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 11:06:16,731 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 11:06:16,731 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 11:06:16,738 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 11:06:16,741 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 11:06:16,742 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 11:06:16,742 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 11:06:16,742 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 11:06:16,742 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 11:06:16,747 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 11:06:16,751 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 11:06:16,755 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 11:06:16,755 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 11:06:16,755 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 11:06:16,755 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 11:06:16,756 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 11:06:16,756 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 11:06:16,756 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 11:06:16,756 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 11:06:16,756 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 11:06:16,756 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 11:06:16,756 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 11:06:16,757 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 11:06:16,758 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 11:06:16,758 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 11:06:16,767 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 11:06:16,768 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 11:06:16,768 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:06:16,768 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:06:16,822 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 11:06:16,822 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 11:06:16,822 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 11:06:16,822 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 11:06:16,822 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 11:06:16,823 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 11:06:16,842 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 11:06:16,842 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 11:06:16,842 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 11:06:16,842 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 11:06:16,843 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 11:06:16,843 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 11:06:16,844 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 11:06:16,849 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 11:06:16,853 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 11:06:16,862 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 11:06:16,865 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 11:06:16,950 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 11:06:16,951 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 11:06:16,951 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 11:06:16,955 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 11:06:16,955 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 11:06:16,956 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 11:06:16,956 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 11:06:16,968 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 11:06:16,968 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 11:06:16,969 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 11:06:16,969 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 11:06:16,969 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 11:06:16,970 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 11:06:16,970 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 11:06:16,973 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 11:06:16,981 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 11:06:16,982 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 11:06:16,982 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 11:06:16,982 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 11:06:16,986 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 11:06:16,986 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 11:06:16,986 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 11:06:16,987 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 11:06:16,987 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 11:06:16,989 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 11:06:16,990 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 11:06:16,990 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 11:06:16,990 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 11:06:16,996 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 11:06:16,996 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 11:06:16,996 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 11:06:16,997 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 11:06:16,997 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 11:06:16,997 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 11:06:16,997 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 11:06:16,997 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 11:06:16,999 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 11:06:16,999 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 11:06:30,625 INFO m.s.OrderServiceImpl [main] calling a method getBookByOrder
+2022-04-14 11:06:30,625 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderById
+2022-04-14 11:06:30,625 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 11:06:30,625 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 11:06:30,625 INFO m.r.OrderRepositoryImpl [main] method getOrderById completed
+2022-04-14 11:06:30,625 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:06:30,625 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:06:30,626 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:06:30,626 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:06:30,626 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:06:30,626 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:06:30,626 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:06:30,626 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:06:30,626 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:06:30,626 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:06:30,626 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:06:30,626 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:06:30,627 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:06:30,627 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:06:30,627 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:09:59,861 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 11:09:59,879 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 11:09:59,879 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 11:09:59,879 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 11:09:59,882 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 11:09:59,883 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 11:09:59,883 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 11:09:59,884 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 11:09:59,884 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 11:09:59,886 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 11:09:59,887 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 11:09:59,888 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 11:09:59,896 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 11:09:59,898 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 11:09:59,899 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 11:09:59,899 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 11:09:59,899 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 11:09:59,900 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 11:09:59,903 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 11:09:59,909 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 11:09:59,911 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 11:09:59,911 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 11:09:59,912 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 11:09:59,912 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 11:09:59,912 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 11:09:59,912 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 11:09:59,912 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 11:09:59,913 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 11:09:59,913 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 11:09:59,913 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 11:09:59,913 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 11:09:59,913 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 11:09:59,913 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 11:09:59,913 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 11:09:59,921 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 11:09:59,922 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 11:09:59,922 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:09:59,922 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:09:59,964 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 11:09:59,964 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 11:09:59,964 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 11:09:59,964 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 11:09:59,965 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 11:09:59,965 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 11:09:59,987 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 11:09:59,987 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 11:09:59,987 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 11:09:59,988 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 11:09:59,988 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 11:09:59,988 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 11:09:59,989 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 11:09:59,992 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 11:09:59,994 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 11:09:59,997 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 11:10:00,000 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 11:10:00,039 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 11:10:00,039 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 11:10:00,039 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 11:10:00,042 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 11:10:00,043 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 11:10:00,043 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 11:10:00,043 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 11:10:00,046 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 11:10:00,046 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 11:10:00,047 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 11:10:00,047 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 11:10:00,047 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 11:10:00,047 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 11:10:00,047 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 11:10:00,050 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 11:10:00,053 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 11:10:00,053 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 11:10:00,053 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 11:10:00,054 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 11:10:00,056 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 11:10:00,056 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 11:10:00,056 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 11:10:00,056 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 11:10:00,056 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 11:10:00,059 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 11:10:00,060 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 11:10:00,060 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 11:10:00,060 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 11:10:00,062 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 11:10:00,063 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 11:10:00,063 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 11:10:00,063 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 11:10:00,063 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 11:10:00,063 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 11:10:00,063 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 11:10:00,064 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 11:10:00,067 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 11:10:00,067 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 11:10:09,241 INFO m.s.OrderServiceImpl [main] calling a method getBookByOrder
+2022-04-14 11:10:09,241 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderById
+2022-04-14 11:10:09,241 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 11:10:09,241 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 11:10:09,241 INFO m.r.OrderRepositoryImpl [main] method getOrderById completed
+2022-04-14 11:10:09,242 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:10:09,242 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:10:09,242 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:10:09,242 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:10:09,242 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:10:09,242 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:10:09,242 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:10:09,242 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:10:09,243 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:10:09,243 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:10:09,243 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:10:09,243 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 11:10:09,243 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 11:10:09,243 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 11:10:09,243 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:14:10,480 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 13:14:10,496 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 13:14:10,496 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 13:14:10,496 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 13:14:10,499 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:14:10,499 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 13:14:10,500 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 13:14:10,500 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 13:14:10,500 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:14:10,504 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 13:14:10,505 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 13:14:10,505 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 13:14:10,510 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 13:14:10,512 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 13:14:10,512 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 13:14:10,512 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 13:14:10,513 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 13:14:10,513 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 13:14:10,516 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 13:14:10,520 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 13:14:10,523 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 13:14:10,523 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 13:14:10,523 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 13:14:10,523 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:14:10,523 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:14:10,523 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 13:14:10,524 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 13:14:10,524 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 13:14:10,524 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 13:14:10,524 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 13:14:10,524 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 13:14:10,525 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 13:14:10,526 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 13:14:10,526 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 13:14:10,533 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 13:14:10,534 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 13:14:10,534 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:14:10,534 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:14:10,589 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 13:14:10,590 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 13:14:10,590 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:14:10,590 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:14:10,590 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:14:10,591 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:14:10,605 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 13:14:10,606 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 13:14:10,606 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 13:14:10,606 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 13:14:10,606 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 13:14:10,606 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 13:14:10,607 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 13:14:10,609 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 13:14:10,611 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 13:14:10,615 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 13:14:10,618 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 13:14:10,670 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 13:14:10,671 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 13:14:10,671 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 13:14:10,672 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 13:14:10,673 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 13:14:10,673 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 13:14:10,673 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 13:14:10,675 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 13:14:10,675 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 13:14:10,676 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 13:14:10,676 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 13:14:10,676 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 13:14:10,676 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 13:14:10,676 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 13:14:10,678 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 13:14:10,680 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 13:14:10,681 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 13:14:10,681 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 13:14:10,681 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 13:14:10,683 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 13:14:10,683 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 13:14:10,683 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 13:14:10,683 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 13:14:10,684 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 13:14:10,685 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 13:14:10,686 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 13:14:10,686 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 13:14:10,686 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 13:14:10,690 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 13:14:10,690 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 13:14:10,690 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 13:14:10,690 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 13:14:10,691 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 13:14:10,691 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 13:14:10,691 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 13:14:10,691 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 13:14:10,694 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 13:14:10,694 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 13:14:47,723 INFO m.s.OrderServiceImpl [main] calling a method changeOrder
+2022-04-14 13:14:47,723 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:14:47,723 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:14:55,417 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 13:14:55,429 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 13:14:55,430 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 13:14:55,430 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 13:14:55,432 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:14:55,432 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 13:14:55,433 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 13:14:55,433 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 13:14:55,433 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:14:55,438 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 13:14:55,438 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 13:14:55,438 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 13:14:55,442 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 13:14:55,443 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 13:14:55,443 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 13:14:55,444 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 13:14:55,444 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 13:14:55,444 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 13:14:55,446 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 13:14:55,449 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 13:14:55,451 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 13:14:55,451 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 13:14:55,452 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 13:14:55,452 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:14:55,452 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:14:55,452 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 13:14:55,452 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 13:14:55,452 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 13:14:55,453 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 13:14:55,453 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 13:14:55,453 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 13:14:55,453 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 13:14:55,454 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 13:14:55,454 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 13:14:55,461 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 13:14:55,462 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 13:14:55,462 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:14:55,462 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:14:55,516 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 13:14:55,516 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 13:14:55,516 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:14:55,516 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:14:55,517 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:14:55,517 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:14:55,550 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 13:14:55,550 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 13:14:55,551 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 13:14:55,551 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 13:14:55,551 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 13:14:55,551 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 13:14:55,553 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 13:14:55,554 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 13:14:55,556 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 13:14:55,560 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 13:14:55,563 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 13:14:55,607 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 13:14:55,608 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 13:14:55,608 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 13:14:55,609 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 13:14:55,610 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 13:14:55,610 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 13:14:55,610 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 13:14:55,612 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 13:14:55,612 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 13:14:55,612 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 13:14:55,613 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 13:14:55,613 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 13:14:55,613 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 13:14:55,613 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 13:14:55,615 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 13:14:55,616 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 13:14:55,617 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 13:14:55,617 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 13:14:55,617 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 13:14:55,619 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 13:14:55,619 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 13:14:55,619 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 13:14:55,619 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 13:14:55,619 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 13:14:55,621 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 13:14:55,621 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 13:14:55,621 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 13:14:55,621 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 13:14:55,623 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 13:14:55,623 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 13:14:55,623 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 13:14:55,624 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 13:14:55,624 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 13:14:55,625 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 13:14:55,625 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 13:14:55,625 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 13:14:55,626 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 13:14:55,627 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 13:15:07,881 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:15:07,881 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:16:05,829 INFO m.s.OrderServiceImpl [main] calling a method changeOrder
+2022-04-14 13:16:05,829 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:16:05,830 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:16:13,954 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 13:16:13,968 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 13:16:13,968 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 13:16:13,968 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 13:16:13,971 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:16:13,971 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 13:16:13,972 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 13:16:13,972 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 13:16:13,972 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:16:13,974 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 13:16:13,975 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 13:16:13,975 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 13:16:13,980 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 13:16:13,982 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 13:16:13,982 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 13:16:13,983 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 13:16:13,983 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 13:16:13,983 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 13:16:13,999 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 13:16:14,001 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 13:16:14,003 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 13:16:14,004 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 13:16:14,005 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 13:16:14,005 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:16:14,006 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:16:14,006 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 13:16:14,006 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 13:16:14,006 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 13:16:14,007 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 13:16:14,007 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 13:16:14,007 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 13:16:14,007 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 13:16:14,007 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 13:16:14,007 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 13:16:14,013 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 13:16:14,013 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 13:16:14,013 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:16:14,014 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:16:14,067 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 13:16:14,068 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 13:16:14,068 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:16:14,069 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:16:14,070 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:16:14,071 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:16:14,082 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 13:16:14,082 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 13:16:14,082 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 13:16:14,083 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 13:16:14,083 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 13:16:14,083 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 13:16:14,084 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 13:16:14,085 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 13:16:14,086 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 13:16:14,090 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 13:16:14,091 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 13:16:14,125 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 13:16:14,125 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 13:16:14,125 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 13:16:14,126 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 13:16:14,127 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 13:16:14,127 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 13:16:14,127 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 13:16:14,129 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 13:16:14,129 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 13:16:14,129 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 13:16:14,129 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 13:16:14,130 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 13:16:14,130 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 13:16:14,130 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 13:16:14,132 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 13:16:14,134 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 13:16:14,134 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 13:16:14,134 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 13:16:14,134 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 13:16:14,136 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 13:16:14,136 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 13:16:14,136 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 13:16:14,136 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 13:16:14,137 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 13:16:14,140 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 13:16:14,140 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 13:16:14,141 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 13:16:14,141 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 13:16:14,143 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 13:16:14,143 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 13:16:14,144 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 13:16:14,144 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 13:16:14,144 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 13:16:14,155 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 13:16:14,155 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 13:16:14,156 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 13:16:14,157 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 13:16:14,157 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 13:16:39,790 INFO m.s.OrderServiceImpl [main] calling a method changeOrder
+2022-04-14 13:16:39,791 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:16:39,791 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:16:39,791 INFO m.s.OrderServiceImpl [main] method changeOrder completed
+2022-04-14 13:16:54,388 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:16:54,388 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:34:23,208 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 13:34:23,220 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 13:34:23,221 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 13:34:23,221 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 13:34:23,223 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:34:23,223 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 13:34:23,223 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 13:34:23,223 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 13:34:23,224 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:34:23,225 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 13:34:23,225 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 13:34:23,226 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 13:34:23,229 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 13:34:23,232 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 13:34:23,232 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 13:34:23,232 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 13:34:23,232 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 13:34:23,232 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 13:34:23,234 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 13:34:23,237 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 13:34:23,240 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 13:34:23,240 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 13:34:23,240 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 13:34:23,240 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:34:23,240 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:34:23,241 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 13:34:23,241 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 13:34:23,241 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 13:34:23,241 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 13:34:23,241 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 13:34:23,242 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 13:34:23,242 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 13:34:23,242 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 13:34:23,242 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 13:34:23,247 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 13:34:23,248 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 13:34:23,248 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:34:23,248 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:34:23,286 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 13:34:23,287 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 13:34:23,287 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:34:23,287 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:34:23,287 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:34:23,287 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:34:23,307 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 13:34:23,307 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 13:34:23,307 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 13:34:23,307 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 13:34:23,308 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 13:34:23,308 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 13:34:23,309 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 13:34:23,319 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 13:34:23,326 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 13:34:23,339 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 13:34:23,342 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 13:34:23,378 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 13:34:23,378 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 13:34:23,384 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 13:34:23,395 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 13:34:23,395 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 13:34:23,396 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 13:34:23,396 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 13:34:23,400 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 13:34:23,402 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 13:34:23,403 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 13:34:23,403 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 13:34:23,403 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 13:34:23,403 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 13:34:23,408 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 13:34:23,411 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 13:34:23,420 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 13:34:23,420 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 13:34:23,420 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 13:34:23,421 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 13:34:23,432 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 13:34:23,433 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 13:34:23,433 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 13:34:23,435 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 13:34:23,436 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 13:34:23,443 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 13:34:23,443 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 13:34:23,443 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 13:34:23,443 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 13:34:23,445 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 13:34:23,455 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 13:34:23,498 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 13:34:23,498 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 13:34:23,498 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 13:34:23,498 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 13:34:23,499 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 13:34:23,499 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 13:34:23,501 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 13:34:23,501 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 13:34:46,080 INFO m.s.OrderServiceImpl [main] calling a method getInfoOrder
+2022-04-14 13:34:46,080 INFO m.s.OrderServiceImpl [main] calling a method getBookByOrder
+2022-04-14 13:34:46,080 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderById
+2022-04-14 13:34:46,081 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:34:46,081 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:34:46,081 INFO m.r.OrderRepositoryImpl [main] method getOrderById completed
+2022-04-14 13:34:46,081 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:34:46,081 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:34:46,081 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:34:46,081 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:34:46,081 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:34:46,081 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:34:46,082 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:34:46,082 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:34:46,082 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:34:46,082 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:34:46,082 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:34:46,082 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:34:46,082 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:34:46,082 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:34:46,082 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:34:46,088 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderById
+2022-04-14 13:34:46,088 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:34:46,088 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:34:46,088 INFO m.r.OrderRepositoryImpl [main] method getOrderById completed
+2022-04-14 13:34:46,088 INFO m.r.CustomerRepositoryImpl [main] calling a method getCustomerById
+2022-04-14 13:34:46,088 INFO m.r.CustomerRepositoryImpl [main] calling a method getCustomers
+2022-04-14 13:34:46,088 INFO m.r.CustomerRepositoryImpl [main] method getCustomers completed
+2022-04-14 13:34:46,088 INFO m.r.CustomerRepositoryImpl [main] method getCustomerById completed
+2022-04-14 13:36:04,963 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 13:36:04,977 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 13:36:04,978 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 13:36:04,978 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 13:36:04,981 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:36:04,981 INFO m.r.OrderRepositoryImpl [main] the constructor is called OrderRepositoryImpl
+2022-04-14 13:36:04,982 INFO m.r.OrderRepositoryImpl [main] calling a method initOrders
+2022-04-14 13:36:04,982 INFO m.r.OrderRepositoryImpl [main] method initOrders completed
+2022-04-14 13:36:04,982 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:36:04,984 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 13:36:04,984 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 13:36:04,987 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 13:36:04,992 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 13:36:04,994 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 13:36:04,994 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 13:36:04,994 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 13:36:04,994 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 13:36:04,994 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 13:36:04,997 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 13:36:05,000 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 13:36:05,002 INFO m.r.BookRepositoryImpl [main] the constructor is called BookRepositoryImpl
+2022-04-14 13:36:05,002 INFO m.r.BookRepositoryImpl [main] calling a method initData
+2022-04-14 13:36:05,002 INFO m.r.BookRepositoryImpl [main] method initData completed
+2022-04-14 13:36:05,002 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:36:05,003 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:36:05,003 INFO m.r.RequestRepositoryImpl [main] the constructor is called RequestRepositoryImpl
+2022-04-14 13:36:05,003 INFO m.r.RequestRepositoryImpl [main] calling a method initRequest
+2022-04-14 13:36:05,003 INFO m.r.RequestRepositoryImpl [main] method initRequest completed
+2022-04-14 13:36:05,003 INFO m.r.CustomerRepositoryImpl [main] the constructor is called CustomerRepositoryImpl
+2022-04-14 13:36:05,003 INFO m.r.CustomerRepositoryImpl [main] calling a method initCustomers
+2022-04-14 13:36:05,003 INFO m.r.CustomerRepositoryImpl [main] method initCustomers completed
+2022-04-14 13:36:05,004 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 13:36:05,004 INFO m.s.BookServiceImpl [main] the constructor is called 
+2022-04-14 13:36:05,004 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 13:36:05,010 INFO m.s.BookServiceImpl [main] calling a method readCsvBook
+2022-04-14 13:36:05,010 INFO m.r.BookRepositoryImpl [main] calling a method getBookRepository
+2022-04-14 13:36:05,010 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:05,011 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:05,059 INFO m.s.BookServiceImpl [main] method readCsvBook completed
+2022-04-14 13:36:05,059 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 13:36:05,060 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderRepository
+2022-04-14 13:36:05,060 INFO m.r.OrderRepositoryImpl [main] method getOrderRepository completed
+2022-04-14 13:36:05,060 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:36:05,060 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:36:05,077 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 13:36:05,078 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 13:36:05,078 INFO m.r.RequestRepositoryImpl [main] calling a method getRequestRepository
+2022-04-14 13:36:05,078 INFO m.r.RequestRepositoryImpl [main] method getRequestRepository completed
+2022-04-14 13:36:05,078 INFO m.r.RequestRepositoryImpl [main] calling a method getRequest
+2022-04-14 13:36:05,079 INFO m.r.RequestRepositoryImpl [main] method getRequest completed
+2022-04-14 13:36:05,080 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 13:36:05,082 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 13:36:05,084 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 13:36:05,092 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 13:36:05,094 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 13:36:05,134 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 13:36:05,134 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 13:36:05,134 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 13:36:05,136 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 13:36:05,136 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 13:36:05,136 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 13:36:05,136 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 13:36:05,138 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 13:36:05,138 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 13:36:05,138 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 13:36:05,139 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 13:36:05,139 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 13:36:05,139 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 13:36:05,139 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 13:36:05,141 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 13:36:05,143 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 13:36:05,143 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 13:36:05,143 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 13:36:05,143 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 13:36:05,145 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 13:36:05,145 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 13:36:05,145 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 13:36:05,145 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 13:36:05,145 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 13:36:05,147 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 13:36:05,147 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 13:36:05,147 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 13:36:05,147 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 13:36:05,149 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 13:36:05,149 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 13:36:05,149 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 13:36:05,149 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 13:36:05,150 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 13:36:05,150 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 13:36:05,150 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 13:36:05,150 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 13:36:05,152 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 13:36:05,152 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 13:36:20,709 INFO m.s.OrderServiceImpl [main] calling a method getInfoOrder
+2022-04-14 13:36:20,709 INFO m.s.OrderServiceImpl [main] calling a method getBookByOrder
+2022-04-14 13:36:20,709 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderById
+2022-04-14 13:36:20,710 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:36:20,710 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:36:20,711 INFO m.r.OrderRepositoryImpl [main] method getOrderById completed
+2022-04-14 13:36:20,711 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:36:20,711 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:20,711 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:20,711 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:36:20,711 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:20,712 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:20,713 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:36:20,713 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:20,713 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:20,713 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:36:20,713 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:20,713 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:20,713 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:36:20,713 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:20,714 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:20,720 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderById
+2022-04-14 13:36:20,720 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:36:20,720 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:36:20,721 INFO m.r.OrderRepositoryImpl [main] method getOrderById completed
+2022-04-14 13:36:20,721 INFO m.r.CustomerRepositoryImpl [main] calling a method getCustomerById
+2022-04-14 13:36:20,721 INFO m.r.CustomerRepositoryImpl [main] calling a method getCustomers
+2022-04-14 13:36:20,721 INFO m.r.CustomerRepositoryImpl [main] method getCustomers completed
+2022-04-14 13:36:20,721 INFO m.s.OrderServiceImpl [main] calling a method getPriceOfSoldBooksByOrderId
+2022-04-14 13:36:20,721 INFO m.r.OrderRepositoryImpl [main] calling a method getOrderById
+2022-04-14 13:36:20,721 INFO m.r.OrderRepositoryImpl [main] calling a method getOrders
+2022-04-14 13:36:20,722 INFO m.r.OrderRepositoryImpl [main] method getOrders completed
+2022-04-14 13:36:20,722 INFO m.r.OrderRepositoryImpl [main] method getOrderById completed
+2022-04-14 13:36:20,722 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:36:20,722 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:20,722 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:20,723 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:36:20,723 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:20,723 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:20,723 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:36:20,723 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:20,723 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:20,723 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:36:20,724 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:20,724 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:20,724 INFO m.r.BookRepositoryImpl [main] calling a method getBookById
+2022-04-14 13:36:20,724 INFO m.r.BookRepositoryImpl [main] calling a method getBooks
+2022-04-14 13:36:20,724 INFO m.r.BookRepositoryImpl [main] method getBooks completed
+2022-04-14 13:36:20,724 INFO m.s.OrderServiceImpl [main] method getInfoOrder completed
+2022-04-14 15:30:26,591 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplcalling a method getBookRepository
+2022-04-14 15:30:26,605 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplthe constructor is called BookRepositoryImpl
+2022-04-14 15:30:26,605 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplcalling a method initData
+2022-04-14 15:30:26,605 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplmethod initData completed
+2022-04-14 15:30:26,608 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplcalling a method getOrderRepository
+2022-04-14 15:30:26,608 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplthe constructor is called OrderRepositoryImpl
+2022-04-14 15:30:26,608 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplcalling a method initOrders
+2022-04-14 15:30:26,608 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplmethod initOrders completed
+2022-04-14 15:30:26,609 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplmethod getOrderRepository completed
+2022-04-14 15:30:26,611 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplthe constructor is called CustomerRepositoryImpl
+2022-04-14 15:30:26,611 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplcalling a method initCustomers
+2022-04-14 15:30:26,615 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplmethod initCustomers completed
+2022-04-14 15:30:26,620 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 15:30:26,622 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplcalling a method getRequestRepository
+2022-04-14 15:30:26,622 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplthe constructor is called RequestRepositoryImpl
+2022-04-14 15:30:26,622 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplcalling a method initRequest
+2022-04-14 15:30:26,622 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplmethod initRequest completed
+2022-04-14 15:30:26,622 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplmethod getRequestRepository completed
+2022-04-14 15:30:26,625 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 15:30:26,629 INFO m.s.BookServiceImpl [main] mybookstore.service.BookServiceImplthe constructor is called 
+2022-04-14 15:30:26,630 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplthe constructor is called BookRepositoryImpl
+2022-04-14 15:30:26,631 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplcalling a method initData
+2022-04-14 15:30:26,631 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplmethod initData completed
+2022-04-14 15:30:26,632 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplcalling a method getOrderRepository
+2022-04-14 15:30:26,632 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplmethod getOrderRepository completed
+2022-04-14 15:30:26,632 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplthe constructor is called RequestRepositoryImpl
+2022-04-14 15:30:26,632 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplcalling a method initRequest
+2022-04-14 15:30:26,632 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplmethod initRequest completed
+2022-04-14 15:30:26,632 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplthe constructor is called CustomerRepositoryImpl
+2022-04-14 15:30:26,632 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplcalling a method initCustomers
+2022-04-14 15:30:26,633 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplmethod initCustomers completed
+2022-04-14 15:30:26,633 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 15:30:26,633 INFO m.s.BookServiceImpl [main] mybookstore.service.BookServiceImplthe constructor is called 
+2022-04-14 15:30:26,633 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 15:30:26,640 INFO m.s.BookServiceImpl [main] mybookstore.service.BookServiceImplcalling a method readCsvBook
+2022-04-14 15:30:26,640 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplcalling a method getBookRepository
+2022-04-14 15:30:26,640 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplcalling a method getBooks
+2022-04-14 15:30:26,640 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplmethod getBooks completed
+2022-04-14 15:30:26,688 INFO m.s.BookServiceImpl [main] mybookstore.service.BookServiceImplmethod readCsvBook completed
+2022-04-14 15:30:26,689 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 15:30:26,689 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplcalling a method getOrderRepository
+2022-04-14 15:30:26,689 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplmethod getOrderRepository completed
+2022-04-14 15:30:26,689 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplcalling a method getOrders
+2022-04-14 15:30:26,690 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplmethod getOrders completed
+2022-04-14 15:30:26,706 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 15:30:26,706 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 15:30:26,706 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplcalling a method getRequestRepository
+2022-04-14 15:30:26,706 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplmethod getRequestRepository completed
+2022-04-14 15:30:26,706 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplcalling a method getRequest
+2022-04-14 15:30:26,707 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplmethod getRequest completed
+2022-04-14 15:30:26,707 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 15:30:26,709 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 15:30:26,711 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 15:30:26,714 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 15:30:26,716 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 15:30:26,769 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 15:30:26,770 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 15:30:26,770 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 15:30:26,771 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 15:30:26,771 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 15:30:26,772 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 15:30:26,772 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 15:30:26,773 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 15:30:26,774 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 15:30:26,774 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 15:30:26,774 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 15:30:26,774 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 15:30:26,774 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 15:30:26,775 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 15:30:26,776 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 15:30:26,778 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 15:30:26,778 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 15:30:26,778 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 15:30:26,778 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 15:30:26,780 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 15:30:26,780 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 15:30:26,780 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 15:30:26,780 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 15:30:26,780 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 15:30:26,783 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 15:30:26,783 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 15:30:26,783 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 15:30:26,783 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 15:30:26,785 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 15:30:26,785 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 15:30:26,785 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 15:30:26,785 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 15:30:26,785 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 15:30:26,786 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 15:30:26,786 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 15:30:26,786 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 15:30:26,787 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 15:30:26,787 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 15:33:18,617 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplcalling a method getBookRepository
+2022-04-14 15:33:18,629 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplthe constructor is called BookRepositoryImpl
+2022-04-14 15:33:18,629 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplcalling a method initData
+2022-04-14 15:33:18,629 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplmethod initData completed
+2022-04-14 15:33:18,632 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplcalling a method getOrderRepository
+2022-04-14 15:33:18,632 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplthe constructor is called OrderRepositoryImpl
+2022-04-14 15:33:18,632 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplcalling a method initOrders
+2022-04-14 15:33:18,633 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplmethod initOrders completed
+2022-04-14 15:33:18,633 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplmethod getOrderRepository completed
+2022-04-14 15:33:18,634 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplthe constructor is called CustomerRepositoryImpl
+2022-04-14 15:33:18,635 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplcalling a method initCustomers
+2022-04-14 15:33:18,637 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplmethod initCustomers completed
+2022-04-14 15:33:18,642 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 15:33:18,644 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplcalling a method getRequestRepository
+2022-04-14 15:33:18,645 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplthe constructor is called RequestRepositoryImpl
+2022-04-14 15:33:18,645 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImpl calling a method initRequest
+2022-04-14 15:33:18,645 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImpl method initRequest completed
+2022-04-14 15:33:18,645 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplmethod getRequestRepository completed
+2022-04-14 15:33:18,648 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 15:33:18,651 INFO m.s.BookServiceImpl [main] mybookstore.service.BookServiceImplthe constructor is called 
+2022-04-14 15:33:18,652 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplthe constructor is called BookRepositoryImpl
+2022-04-14 15:33:18,652 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplcalling a method initData
+2022-04-14 15:33:18,652 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplmethod initData completed
+2022-04-14 15:33:18,652 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplcalling a method getOrderRepository
+2022-04-14 15:33:18,653 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplmethod getOrderRepository completed
+2022-04-14 15:33:18,653 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplthe constructor is called RequestRepositoryImpl
+2022-04-14 15:33:18,653 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImpl calling a method initRequest
+2022-04-14 15:33:18,653 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImpl method initRequest completed
+2022-04-14 15:33:18,653 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplthe constructor is called CustomerRepositoryImpl
+2022-04-14 15:33:18,653 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplcalling a method initCustomers
+2022-04-14 15:33:18,653 INFO m.r.CustomerRepositoryImpl [main] mybookstore.repository.CustomerRepositoryImplmethod initCustomers completed
+2022-04-14 15:33:18,654 INFO m.s.RequestServiceImpl [main] the constructor is called RequestServiceImpl
+2022-04-14 15:33:18,654 INFO m.s.BookServiceImpl [main] mybookstore.service.BookServiceImplthe constructor is called 
+2022-04-14 15:33:18,654 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 15:33:18,660 INFO m.s.BookServiceImpl [main] mybookstore.service.BookServiceImplcalling a method readCsvBook
+2022-04-14 15:33:18,660 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplcalling a method getBookRepository
+2022-04-14 15:33:18,661 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplcalling a method getBooks
+2022-04-14 15:33:18,661 INFO m.r.BookRepositoryImpl [main] mybookstore.repository.BookRepositoryImplmethod getBooks completed
+2022-04-14 15:33:18,700 INFO m.s.BookServiceImpl [main] mybookstore.service.BookServiceImplmethod readCsvBook completed
+2022-04-14 15:33:18,701 INFO m.s.OrderServiceImpl [main] calling a method readFileCsvOrder
+2022-04-14 15:33:18,701 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplcalling a method getOrderRepository
+2022-04-14 15:33:18,701 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplmethod getOrderRepository completed
+2022-04-14 15:33:18,701 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplcalling a method getOrders
+2022-04-14 15:33:18,702 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImplmethod getOrders completed
+2022-04-14 15:33:18,718 INFO m.s.OrderServiceImpl [main] method readFileCsvOrder completed
+2022-04-14 15:33:18,718 INFO m.s.RequestServiceImpl [main] calling a method readFileCsvRequest
+2022-04-14 15:33:18,718 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplcalling a method getRequestRepository
+2022-04-14 15:33:18,718 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImplmethod getRequestRepository completed
+2022-04-14 15:33:18,719 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImpl calling a method getRequest
+2022-04-14 15:33:18,719 INFO m.r.RequestRepositoryImpl [main] mybookstore.repository.RequestRepositoryImpl method getRequest completed RequestRepository
+2022-04-14 15:33:18,720 INFO m.s.RequestServiceImpl [main] method readFileCsvRequest completed
+2022-04-14 15:33:18,721 INFO m.u.b.Builder [main] calling a method buildMenu
+2022-04-14 15:33:18,723 INFO m.u.b.RootMenuBuilder [main] calling a method buildMenu
+2022-04-14 15:33:18,725 INFO m.u.b.NestedMenuOrders [main] calling a method buildMenu
+2022-04-14 15:33:18,727 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 15:33:18,773 INFO m.u.b.NestedMenuOrdersAction [main] calling a method buildMenu
+2022-04-14 15:33:18,774 INFO m.u.b.NestedMenuOrdersAction [main] calling a method getCurrentMenu
+2022-04-14 15:33:18,774 INFO m.u.b.NestedMenuOrdersAction [main] method getCurrentMenu completed
+2022-04-14 15:33:18,775 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method buildMenu
+2022-04-14 15:33:18,776 INFO m.u.b.NestedMenuOrdersSorting [main] method buildMenu completed
+2022-04-14 15:33:18,776 INFO m.u.b.NestedMenuOrdersSorting [main] calling a method getCurrentMenu
+2022-04-14 15:33:18,776 INFO m.u.b.NestedMenuOrdersSorting [main] method getCurrentMenu completed
+2022-04-14 15:33:18,778 INFO m.u.b.NestedMenuOrderInfo [main] calling a method buildMenu
+2022-04-14 15:33:18,778 INFO m.u.b.NestedMenuOrderInfo [main] method buildMenu completed
+2022-04-14 15:33:18,778 INFO m.u.b.NestedMenuOrderInfo [main] calling a method getCurrentMenu
+2022-04-14 15:33:18,779 INFO m.u.b.NestedMenuOrderInfo [main] method getCurrentMenu completed
+2022-04-14 15:33:18,779 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 15:33:18,779 INFO m.u.b.NestedMenuOrders [main] calling a method getCurrentMenu
+2022-04-14 15:33:18,779 INFO m.u.b.NestedMenuOrders [main] method getCurrentMenu completed
+2022-04-14 15:33:18,781 INFO m.u.b.NestedMenuBooks [main] calling a method buildMenu
+2022-04-14 15:33:18,783 INFO m.u.b.NestedMenuBookSorting [main] calling a method buildMenu
+2022-04-14 15:33:18,783 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 15:33:18,784 INFO m.u.b.NestedMenuBookSorting [main] calling a method getCurrentMenu
+2022-04-14 15:33:18,784 INFO m.u.b.NestedMenuBookSorting [main] method getCurrentMenu completed
+2022-04-14 15:33:18,791 INFO m.u.b.NestedMenuBookAction [main] calling a method getCurrentMenu
+2022-04-14 15:33:18,791 INFO m.u.b.NestedMenuBookAction [main] method getCurrentMenu completed
+2022-04-14 15:33:18,791 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 15:33:18,792 INFO m.u.b.NestedMenuBooks [main] calling a method getRootMenu
+2022-04-14 15:33:18,792 INFO m.u.b.NestedMenuBooks [main] method getRootMenu completed
+2022-04-14 15:33:18,793 INFO m.u.b.NestedMenuRequest [main] calling a method buildMenu
+2022-04-14 15:33:18,794 INFO m.u.b.NestedMenuRequest [main] method buildMenu completed
+2022-04-14 15:33:18,794 INFO m.u.b.NestedMenuRequest [main] calling a method getCurrentMenu
+2022-04-14 15:33:18,794 INFO m.u.b.NestedMenuRequest [main] method getCurrentMenu completed
+2022-04-14 15:33:18,796 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 15:33:18,796 INFO m.u.b.NestedMenuImportData [main] calling a method buildMenu
+2022-04-14 15:33:18,796 INFO m.u.b.NestedMenuImportData [main] calling a method getCurrentMenu
+2022-04-14 15:33:18,796 INFO m.u.b.NestedMenuImportData [main] method getCurrentMenu completed
+2022-04-14 15:33:18,797 INFO m.u.b.RootMenuBuilder [main] method buildMenu completed
+2022-04-14 15:33:18,797 INFO m.u.b.RootMenuBuilder [main] calling a method getCurrentMenu
+2022-04-14 15:33:18,797 INFO m.u.b.RootMenuBuilder [main] method getCurrentMenu completed
+2022-04-14 15:33:18,797 INFO m.u.b.Builder [main] method buildMenu completed
+2022-04-14 15:33:18,799 INFO m.u.b.Builder [main] calling a method getRootMenu
+2022-04-14 15:33:18,799 INFO m.u.b.Builder [main] method getRootMenu completed
+2022-04-14 16:13:18,715 INFO m.r.BookRepositoryImpl [main] BookRepositoryImpl calling a method getBookRepository
+2022-04-14 16:13:18,729 INFO m.r.BookRepositoryImpl [main] BookRepositoryImpl the constructor is called BookRepositoryImpl
+2022-04-14 16:13:18,730 INFO m.r.BookRepositoryImpl [main] BookRepositoryImpl calling a method initData
+2022-04-14 16:13:18,730 INFO m.r.BookRepositoryImpl [main] BookRepositoryImpl method initData completed
+2022-04-14 16:13:18,733 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImpl calling a method getOrderRepository
+2022-04-14 16:13:18,733 INFO m.r.OrderRepositoryImpl [main] OrderRepositoryImpl the constructor is called OrderRepositoryImpl
+2022-04-14 16:13:18,733 INFO m.r.OrderRepositoryImpl [main] OrderRepositoryImpl calling a method initOrders
+2022-04-14 16:13:18,733 INFO m.r.OrderRepositoryImpl [main] OrderRepositoryImpl method initOrders completed
+2022-04-14 16:13:18,734 INFO m.r.OrderRepositoryImpl [main] OrderRepositoryImpl method getOrderRepository completed
+2022-04-14 16:13:18,736 INFO m.r.CustomerRepositoryImpl [main] CustomerRepositoryImpl the constructor is called CustomerRepositoryImpl
+2022-04-14 16:13:18,736 INFO m.r.CustomerRepositoryImpl [main] CustomerRepositoryImpl calling a method initCustomers
+2022-04-14 16:13:18,738 INFO m.r.CustomerRepositoryImpl [main] CustomerRepositoryImpl method initCustomers completed
+2022-04-14 16:13:18,744 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 16:13:18,748 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl calling a method getRequestRepository
+2022-04-14 16:13:18,748 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl the constructor is called RequestRepositoryImpl
+2022-04-14 16:13:18,748 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl calling a method initRequest
+2022-04-14 16:13:18,748 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl method initRequest completed
+2022-04-14 16:13:18,749 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl method getRequestRepository completed
+2022-04-14 16:13:18,752 INFO m.s.RequestServiceImpl [main] RequestServiceImpl the constructor is called RequestServiceImpl
+2022-04-14 16:13:18,755 INFO m.s.BookServiceImpl [main] BookServiceImpl the constructor is called 
+2022-04-14 16:13:18,757 INFO m.r.BookRepositoryImpl [main] BookRepositoryImpl the constructor is called BookRepositoryImpl
+2022-04-14 16:13:18,758 INFO m.r.BookRepositoryImpl [main] BookRepositoryImpl calling a method initData
+2022-04-14 16:13:18,758 INFO m.r.BookRepositoryImpl [main] BookRepositoryImpl method initData completed
+2022-04-14 16:13:18,758 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImpl calling a method getOrderRepository
+2022-04-14 16:13:18,758 INFO m.r.OrderRepositoryImpl [main] OrderRepositoryImpl method getOrderRepository completed
+2022-04-14 16:13:18,758 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl the constructor is called RequestRepositoryImpl
+2022-04-14 16:13:18,759 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl calling a method initRequest
+2022-04-14 16:13:18,759 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl method initRequest completed
+2022-04-14 16:13:18,759 INFO m.r.CustomerRepositoryImpl [main] CustomerRepositoryImpl the constructor is called CustomerRepositoryImpl
+2022-04-14 16:13:18,759 INFO m.r.CustomerRepositoryImpl [main] CustomerRepositoryImpl calling a method initCustomers
+2022-04-14 16:13:18,759 INFO m.r.CustomerRepositoryImpl [main] CustomerRepositoryImpl method initCustomers completed
+2022-04-14 16:13:18,759 INFO m.s.RequestServiceImpl [main] RequestServiceImpl the constructor is called RequestServiceImpl
+2022-04-14 16:13:18,760 INFO m.s.BookServiceImpl [main] BookServiceImpl the constructor is called 
+2022-04-14 16:13:18,760 INFO m.s.OrderServiceImpl [main] the constructor is called OrderServiceImpl
+2022-04-14 16:13:18,766 INFO m.u.c.MenuController [main] MenuController calling a method run
+2022-04-14 16:13:18,766 INFO m.s.BookServiceImpl [main] BookServiceImpl calling a method readCsvBook
+2022-04-14 16:13:18,767 INFO m.r.BookRepositoryImpl [main] BookRepositoryImpl calling a method getBookRepository
+2022-04-14 16:13:18,767 INFO m.r.BookRepositoryImpl [main] BookRepositoryImpl calling a method getBooks
+2022-04-14 16:13:18,767 INFO m.r.BookRepositoryImpl [main] BookRepositoryImpl method getBooks completed
+2022-04-14 16:13:18,808 INFO m.s.BookServiceImpl [main] BookServiceImpl method readCsvBook completed
+2022-04-14 16:13:18,809 INFO m.s.OrderServiceImpl [main] OrderServiceImpl calling a method readFileCsvOrder
+2022-04-14 16:13:18,809 INFO m.r.OrderRepositoryImpl [main] mybookstore.repository.OrderRepositoryImpl calling a method getOrderRepository
+2022-04-14 16:13:18,809 INFO m.r.OrderRepositoryImpl [main] OrderRepositoryImpl method getOrderRepository completed
+2022-04-14 16:13:18,809 INFO m.r.OrderRepositoryImpl [main] OrderRepositoryImpl calling a method getOrders
+2022-04-14 16:13:18,809 INFO m.r.OrderRepositoryImpl [main] OrderRepositoryImpl method getOrders completed
+2022-04-14 16:13:18,826 INFO m.s.OrderServiceImpl [main] OrderServiceImpl method readFileCsvOrder completed
+2022-04-14 16:13:18,826 INFO m.s.RequestServiceImpl [main] RequestServiceImpl calling a method readFileCsvRequest
+2022-04-14 16:13:18,827 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl calling a method getRequestRepository
+2022-04-14 16:13:18,827 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl method getRequestRepository completed
+2022-04-14 16:13:18,827 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl calling a method getRequest
+2022-04-14 16:13:18,827 INFO m.r.RequestRepositoryImpl [main] RequestRepositoryImpl method getRequest completed
+2022-04-14 16:13:18,828 INFO m.s.RequestServiceImpl [main] RequestServiceImpl method readFileCsvRequest completed
+2022-04-14 16:13:18,830 INFO m.u.b.Builder [main] Builder calling a method buildMenu
+2022-04-14 16:13:18,832 INFO m.u.b.RootMenuBuilder [main] RootMenuBuilder calling a method buildMenu
+2022-04-14 16:13:18,835 INFO m.u.b.NestedMenuOrders [main] NestedMenuOrders calling a method buildMenu
+2022-04-14 16:13:18,837 INFO m.u.b.NestedMenuOrdersAction [main] NestedMenuOrdersAction calling a method buildMenu
+2022-04-14 16:13:18,887 INFO m.u.b.NestedMenuOrdersAction [main] NestedMenuOrdersAction calling a method buildMenu
+2022-04-14 16:13:18,887 INFO m.u.b.NestedMenuOrdersAction [main] NestedMenuOrdersAction calling a method getCurrentMenu
+2022-04-14 16:13:18,888 INFO m.u.b.NestedMenuOrdersAction [main] NestedMenuOrdersAction method getCurrentMenu completed
+2022-04-14 16:13:18,889 INFO m.u.b.NestedMenuOrdersSorting [main] NestedMenuOrdersSorting calling a method buildMenu
+2022-04-14 16:13:18,890 INFO m.u.b.NestedMenuOrdersSorting [main] NestedMenuOrdersSorting method buildMenu completed
+2022-04-14 16:13:18,890 INFO m.u.b.NestedMenuOrdersSorting [main] NestedMenuOrdersSorting calling a method getCurrentMenu
+2022-04-14 16:13:18,890 INFO m.u.b.NestedMenuOrdersSorting [main] NestedMenuOrdersSorting method getCurrentMenu completed
+2022-04-14 16:13:18,892 INFO m.u.b.NestedMenuOrderInfo [main] NestedMenuOrderInfo calling a method buildMenu
+2022-04-14 16:13:18,892 INFO m.u.b.NestedMenuOrderInfo [main] NestedMenuOrderInfo method buildMenu completed
+2022-04-14 16:13:18,892 INFO m.u.b.NestedMenuOrderInfo [main] NestedMenuOrderInfo calling a method getCurrentMenu
+2022-04-14 16:13:18,892 INFO m.u.b.NestedMenuOrderInfo [main] NestedMenuOrderInfo method getCurrentMenu completed
+2022-04-14 16:13:18,892 INFO m.u.b.NestedMenuOrders [main] method buildMenu completed
+2022-04-14 16:13:18,893 INFO m.u.b.NestedMenuOrders [main] NestedMenuOrders calling a method getCurrentMenu
+2022-04-14 16:13:18,893 INFO m.u.b.NestedMenuOrders [main] NestedMenuOrders method getCurrentMenu completed
+2022-04-14 16:13:18,894 INFO m.u.b.NestedMenuBooks [main] NestedMenuBooks calling a method buildMenu
+2022-04-14 16:13:18,896 INFO m.u.b.NestedMenuBookSorting [main] NestedMenuBookSorting calling a method buildMenu
+2022-04-14 16:13:18,897 INFO m.u.b.NestedMenuBookSorting [main] method buildMenu completed
+2022-04-14 16:13:18,897 INFO m.u.b.NestedMenuBookSorting [main] NestedMenuBookSorting calling a method getCurrentMenu
+2022-04-14 16:13:18,897 INFO m.u.b.NestedMenuBookSorting [main] NestedMenuBookSorting method getCurrentMenu completed
+2022-04-14 16:13:18,898 INFO m.u.b.NestedMenuBookAction [main] NestedMenuBookAction calling a method getCurrentMenu
+2022-04-14 16:13:18,899 INFO m.u.b.NestedMenuBookAction [main] NestedMenuBookAction method getCurrentMenu completed
+2022-04-14 16:13:18,899 INFO m.u.b.NestedMenuBooks [main] method buildMenu completed
+2022-04-14 16:13:18,899 INFO m.u.b.NestedMenuBooks [main] NestedMenuBooks calling a method getRootMenu
+2022-04-14 16:13:18,899 INFO m.u.b.NestedMenuBooks [main] NestedMenuBooks method getRootMenu completed
+2022-04-14 16:13:18,901 INFO m.u.b.NestedMenuRequest [main] NestedMenuRequest calling a method buildMenu
+2022-04-14 16:13:18,902 INFO m.u.b.NestedMenuRequest [main] NestedMenuRequest method buildMenu completed
+2022-04-14 16:13:18,902 INFO m.u.b.NestedMenuRequest [main] NestedMenuRequest calling a method getCurrentMenu
+2022-04-14 16:13:18,902 INFO m.u.b.NestedMenuRequest [main] NestedMenuRequest method getCurrentMenu completed
+2022-04-14 16:13:18,904 INFO m.u.b.NestedMenuImportData [main] NestedMenuImportData calling a method buildMenu
+2022-04-14 16:13:18,904 INFO m.u.b.NestedMenuImportData [main] NestedMenuImportData calling a method buildMenu
+2022-04-14 16:13:18,904 INFO m.u.b.NestedMenuImportData [main] NestedMenuImportData calling a method getCurrentMenu
+2022-04-14 16:13:18,905 INFO m.u.b.NestedMenuImportData [main] NestedMenuImportData method getCurrentMenu completed
+2022-04-14 16:13:18,905 INFO m.u.b.RootMenuBuilder [main] RootMenuBuilder method buildMenu completed
+2022-04-14 16:13:18,905 INFO m.u.b.RootMenuBuilder [main] RootMenuBuilder calling a method getCurrentMenu
+2022-04-14 16:13:18,905 INFO m.u.b.RootMenuBuilder [main] RootMenuBuilder method getCurrentMenu completed
+2022-04-14 16:13:18,905 INFO m.u.b.Builder [main] Builder method buildMenu completed
+2022-04-14 16:13:18,907 INFO m.u.b.Builder [main] Builder calling a method getRootMenu
+2022-04-14 16:13:18,907 INFO m.u.b.Builder [main] Builder method getRootMenu completed
+2022-04-14 16:13:18,907 INFO m.u.c.Navigator [main] Navigator calling a method printMenu
+2022-04-14 16:13:18,907 INFO m.u.c.Navigator [main] Navigator calling a method printHeader
+2022-04-14 16:13:18,908 INFO m.u.c.Navigator [main] Navigator method printHeader completed
+2022-04-14 16:13:18,912 INFO m.u.c.Navigator [main] Navigator method printMenu completed
+2022-04-14 16:13:18,912 INFO m.u.c.Navigator [main] Navigator calling a method getCurrentMenu
+2022-04-14 16:13:18,912 INFO m.u.c.Navigator [main] Navigator method getCurrentMenu completed
+2022-04-14 16:13:18,912 INFO m.u.c.MenuController [main] MenuController calling a method getInput
+2022-04-14 16:13:57,377 INFO m.u.c.MenuController [main] MenuController method getInput completed
+2022-04-14 16:13:57,378 INFO m.u.c.Navigator [main] Navigator calling a method navigate
+2022-04-14 16:13:57,378 INFO m.u.c.Navigator [main] Navigator method navigate completed
+2022-04-14 16:13:57,378 INFO m.u.c.Navigator [main] Navigator calling a method printMenu
+2022-04-14 16:13:57,378 INFO m.u.c.Navigator [main] Navigator calling a method printHeader
+2022-04-14 16:13:57,379 INFO m.u.c.Navigator [main] Navigator method printHeader completed
+2022-04-14 16:13:57,379 INFO m.u.c.Navigator [main] Navigator method printMenu completed
+2022-04-14 16:13:57,379 INFO m.u.c.Navigator [main] Navigator calling a method getCurrentMenu
+2022-04-14 16:13:57,379 INFO m.u.c.Navigator [main] Navigator method getCurrentMenu completed
+2022-04-14 16:13:57,380 INFO m.u.c.MenuController [main] MenuController calling a method getInput
