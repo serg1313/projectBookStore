@@ -13,7 +13,7 @@ public class Builder {
      */
     private static final Logger LOG = LogManager.getLogger(Builder.class.getName());
     /**
-     * поле корн.
+     * поле главного меню.
      */
     private Menu rootMenu;
 

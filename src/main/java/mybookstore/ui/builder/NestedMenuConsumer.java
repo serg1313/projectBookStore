@@ -7,17 +7,32 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
-@SuppressWarnings({"checkstyle:JavadocVariable", "checkstyle:RegexpSingleline"})
+
+/**
+ * Класс для построения меню покупателей и проведения различных действий над объектом покупателей.
+ */
 public class NestedMenuConsumer {
+    /**
+     * поле logger.
+     */
     private static final Logger LOG = LogManager.getLogger(NestedMenuConsumer.class.getName());
+    /**
+     * поле главного меню.
+     */
     private Menu rootMenu;
+    /**
+     * поле вложенного меню.
+     */
     private Menu currentMenu;
 
     public NestedMenuConsumer(final Menu rootMenu) {
         this.rootMenu = rootMenu;
     }
 
-    @SuppressWarnings("checkstyle:DesignForExtension")
+    /**
+     * Строит меню покупателей. Позволяет перейти в предыдущее меню или во вложенное при
+     * нажатии определенной цифры.
+     */
     public void buildMenu() {
         LOG.info(NestedMenuConsumer.class.getSimpleName() + " " + "calling a method buildMenu");
         List<MenuItem> itemList = new ArrayList<>();
@@ -25,7 +40,10 @@ public class NestedMenuConsumer {
         LOG.info(NestedMenuConsumer.class.getSimpleName() + " " + "method buildMenu completed");
     }
 
-    @SuppressWarnings("checkstyle:DesignForExtension")
+    /**
+     * Метод возвращает в меню на уровень выше.
+     * @return меню на уровень выше
+     */
     public Menu getRootMenu() {
         LOG.info(NestedMenuConsumer.class.getSimpleName() + " " + "calling a method getRootMenu");
         LOG.info(NestedMenuConsumer.class.getSimpleName() + " " + "method getRootMenu completed");
@@ -33,8 +51,8 @@ public class NestedMenuConsumer {
     }
 
     /**
-     *
-     * @return
+     *Возвращает вложенное меню.
+     * @return вложенное меню
      */
     public Menu getCurrentMenu() {
         LOG.info(NestedMenuConsumer.class.getSimpleName() + " " + "calling a method getCurrentMenu");

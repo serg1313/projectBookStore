@@ -45,7 +45,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * Конструктор - создание нового объекта.
-     * @param book
+     * @param book book
      */
     public Book(final Book book) {
         super(id++);
@@ -59,12 +59,12 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * Конструктор - создание нового объекта.
-     * @param name
-     * @param author
-     * @param year
-     * @param price
-     * @param status
-     * @param date
+     * @param name name
+     * @param author author
+     * @param year year
+     * @param price price
+     * @param status status
+     * @param date date
      */
     @SuppressWarnings("checkstyle:HiddenField")
     public Book(final String name, final String author, final int year, final double price, final boolean status, final LocalDate date) {
@@ -79,7 +79,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * метод получения id.
-     * @param idBook
+     * @param idBook idBook
      */
     public Book(final long idBook) {
         super(id);
@@ -103,7 +103,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * метод возвращает id книги.
-     * @return id
+     * @return id id книги
      */
     public static long getIdBook() {
         return id;
@@ -111,7 +111,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * Метод возвращает имя книги.
-     * @return nameBook
+     * @return nameBook имя книги
      */
     public String getNameBook() {
         return nameBook;
@@ -119,7 +119,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * Метод записывает имя книги из параметра.
-     * @param name
+     * @param name имя книги
      */
     public void setNameBook(final String name) {
         this.nameBook = name;
@@ -127,7 +127,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * метод возвращает автора книги.
-     * @return authorBook
+     * @return authorBook автора книги
      */
     public String getAuthorBook() {
         return authorBook;
@@ -135,7 +135,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * установить автора книги.
-     * @param authorBook
+     * @param authorBook автора книги
      */
     public void setAuthorBook(final String authorBook) {
         this.authorBook = authorBook;
@@ -143,7 +143,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * вернуть год публикации.
-     * @return yearOfPublic
+     * @return yearOfPublic год публикации
      */
     public int getYearOfPublic() {
         return yearOfPublic;
@@ -151,7 +151,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * установить год публиации.
-     * @param yearOfPublic
+     * @param yearOfPublic год публиации
      */
     public void setYearOfPublic(final int yearOfPublic) {
         this.yearOfPublic = yearOfPublic;
@@ -159,7 +159,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * вернуть стоимость книги.
-     * @return price
+     * @return price стоимость книги
      */
     public double getPrice() {
         return price;
@@ -167,7 +167,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * установить стоимость книги.
-     * @param price
+     * @param price стоимость книги
      */
     public void setPrice(final double price) {
         this.price = price;
@@ -175,7 +175,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * вернуть дату доставки книги.
-     * @return dateDelivery
+     * @return dateDelivery дату доставки книги
      */
     public LocalDate getDateDelivery() {
         return dateDelivery;
@@ -183,7 +183,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * установить дату доставки книги.
-     * @param dateDelivery
+     * @param dateDelivery дату доставки книги
      */
     public void setDateDelivery(final LocalDate dateDelivery) {
         this.dateDelivery = dateDelivery;
@@ -191,7 +191,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * вернуть список запросов.
-     * @return requests
+     * @return requests список запросов
      */
     public List<Request> getRequests() {
         return requests;
@@ -199,7 +199,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * внести запрос в список запросов.
-     * @param requests
+     * @param requests список запросов
      */
     public void setRequests(final Request requests) {
         this.requests.add(requests);
@@ -218,7 +218,7 @@ public class Book extends BaseEntity implements Comparable<Book>, Serializable {
 
     /**
      * переопределенный метод toString для класса Book.
-     * @return
+     * @return переопределенный метод toString для класса Book
      */
     @Override
     public String toString() {

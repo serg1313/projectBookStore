@@ -10,8 +10,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NestedMenuBookAction {
+    /**
+     * поле logger.
+     */
     private static final Logger LOG = LogManager.getLogger(NestedMenuBookAction.class.getName());
+    /**
+     * поле главного меню для операций над книгами.
+     */
     private Menu rootMenu;
+    /**
+     * поле вложенного меню для операций над книгами.
+     */
     private Menu currentMenu;
 
     public NestedMenuBookAction(final Menu rootMenu) {
@@ -25,7 +34,9 @@ public class NestedMenuBookAction {
         return rootMenu;
     }
 
-    @SuppressWarnings("checkstyle:DesignForExtension")
+    /**
+     * Составляет главное меню действий над книгами.
+     */
     public void buildMenu() {
         List<MenuItem> menuItemList = new ArrayList<>();
         currentMenu = new Menu("Действия", menuItemList);
@@ -37,7 +48,10 @@ public class NestedMenuBookAction {
         menuItemList.add(new MenuItem("6: Выход в главное меню", null, rootMenu));
     }
 
-    @SuppressWarnings("checkstyle:DesignForExtension")
+    /**
+     * Возвращает вложенное меню.
+     * @return вложенное меню
+     */
     public Menu getCurrentMenu() {
         LOG.info(NestedMenuBookAction.class.getSimpleName() + " " + "calling a method getCurrentMenu");
         LOG.info(NestedMenuBookAction.class.getSimpleName() + " " + "method getCurrentMenu completed");

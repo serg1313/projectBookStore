@@ -8,17 +8,32 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
-@SuppressWarnings({"checkstyle:JavadocVariable", "checkstyle:RegexpSingleline"})
+
+/**
+ * Класс для построения вложенного меню и для проведения сортировки книг.
+ */
 public class NestedMenuBookSorting {
+    /**
+     * поле logger.
+     */
     private static final Logger LOG = LogManager.getLogger(NestedMenuBookSorting.class.getName());
+    /**
+     * поле главного меню.
+     */
     private Menu rootMenu;
+    /**
+     * поле вложенного меню.
+     */
     private Menu currentMenu;
 
     public NestedMenuBookSorting(final Menu rootMenu) {
         this.rootMenu = rootMenu;
     }
 
-    @SuppressWarnings("checkstyle:DesignForExtension")
+    /**
+     * Строит меню сортировки книг по выбранным критериям. Позволяет перейти в предыдущее меню при
+     * нажатии определенной цифры.
+     */
     public void buildMenu() {
         LOG.info(NestedMenuBookSorting.class.getSimpleName() + " " + "calling a method buildMenu");
         List<MenuItem> itemList = new ArrayList<>();
@@ -33,14 +48,20 @@ public class NestedMenuBookSorting {
         LOG.info("method buildMenu completed");
     }
 
-    @SuppressWarnings("checkstyle:DesignForExtension")
+    /**
+     * Метод помогает вернуться из вложенного меню в меню уровнем выше.
+     * @return меню на уровне выше
+     */
     public Menu getRootMenu() {
         LOG.info(NestedMenuBookSorting.class.getSimpleName() + " " + "calling a method getRootMenu");
         LOG.info(NestedMenuBookSorting.class.getSimpleName() + " " + "method getRootMenu completed");
         return rootMenu;
     }
 
-    @SuppressWarnings("checkstyle:DesignForExtension")
+    /**
+     * Возвращает вложенное меню.
+     * @return вложенное меню.
+     */
     public Menu getCurrentMenu() {
         LOG.info(NestedMenuBookSorting.class.getSimpleName() + " " + "calling a method getCurrentMenu");
         LOG.info(NestedMenuBookSorting.class.getSimpleName() + " " + "method getCurrentMenu completed");

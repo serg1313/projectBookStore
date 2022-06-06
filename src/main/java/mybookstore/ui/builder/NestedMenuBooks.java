@@ -8,17 +8,32 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
-@SuppressWarnings({"checkstyle:JavadocVariable", "checkstyle:RegexpSingleline"})
+
+/**
+ * Класс для проведения действия над книгами из меню.
+ */
 public class NestedMenuBooks {
+    /**
+     * поле logger.
+     */
     private static final Logger LOG = LogManager.getLogger(NestedMenuBooks.class.getName());
+    /**
+     * поле главного меню над провеением действий над книгами.
+     */
     private Menu rootMenu;
+    /**
+     * поле вложенного меню.
+     */
     private Menu current;
 
     public NestedMenuBooks(final Menu rootMenu) {
         this.rootMenu = rootMenu;
     }
 
-    @SuppressWarnings("checkstyle:DesignForExtension")
+    /**
+     * Строит меню книг. Позволяет перейти в предыдущее меню или во вложенное при
+     * нажатии определенной цифры.
+     */
     public void buildMenu() {
         LOG.info(NestedMenuBooks.class.getSimpleName() + " " + "calling a method buildMenu");
         List<MenuItem> menuItems = new ArrayList<>();
@@ -36,14 +51,20 @@ public class NestedMenuBooks {
         LOG.info("method buildMenu completed");
     }
 
-    @SuppressWarnings("checkstyle:DesignForExtension")
+    /**
+     * Метод помогает вернуться из вложенного меню в главное меню.
+     * @return главное меню
+     */
     public Menu getRootMenu() {
         LOG.info(NestedMenuBooks.class.getSimpleName() + " " + "calling a method getRootMenu");
         LOG.info(NestedMenuBooks.class.getSimpleName() + " " + "method getRootMenu completed");
         return rootMenu;
     }
 
-    @SuppressWarnings("checkstyle:DesignForExtension")
+    /**
+     * Возвращает вложенное меню.
+     * @return вложенное меню
+     */
     public Menu getCurrent() {
         LOG.info(NestedMenuBooks.class.getSimpleName() + " " + "calling a method getRootMenu");
         LOG.info(NestedMenuBooks.class.getSimpleName() + " " + "method getRootMenu completed");

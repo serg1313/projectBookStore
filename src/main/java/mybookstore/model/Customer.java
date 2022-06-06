@@ -24,6 +24,11 @@ public class Customer extends BaseEntity {
      */
     private int age;
 
+    /**
+     * конструктор класса Customer.
+     * @param name имя покупателя
+     * @param age возраст покупателя
+     */
     public Customer(final String name, final int age) {
         super(id++);
         this.name = name;

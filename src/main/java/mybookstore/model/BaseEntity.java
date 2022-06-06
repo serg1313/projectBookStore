@@ -14,10 +14,10 @@ public abstract class BaseEntity {
 
     /**
      * Конструктор - создание нового объекта.
-     * @param id1
+     * @param id объекта
      */
-    public BaseEntity(final long id1) {
-        this.id = id1;
+    public BaseEntity(final long id) {
+        this.id = id;
     }
 
     /**
@@ -30,10 +30,10 @@ public abstract class BaseEntity {
 
     /**
      * метод установки id.
-     * @param id1
+     * @param id объекта
      */
-    public void setId(final long id1) {
-        this.id = id1;
+    public void setId(final long id) {
+        this.id = id;
     }
 }
 

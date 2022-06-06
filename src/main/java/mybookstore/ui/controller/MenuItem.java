@@ -4,18 +4,36 @@ import mybookstore.ui.action.IAction;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * Класс для создания пунктов меню.
+ */
 public class MenuItem {
-    private static final Logger log = LogManager.getLogger(MenuItem.class.getName());
+    /**
+     * поле logger.
+     */
+    private static final Logger LOG = LogManager.getLogger(MenuItem.class.getName());
+    /**
+     * поле заглавие.
+     */
     private String title;
+    /**
+     * поле действия.
+     */
     private IAction action;
+    /**
+     * поле вложенного меню.
+     */
     private Menu nextMenu;
 
-    public MenuItem(String title, IAction action, Menu nextMenu) {
+    public MenuItem(final String title, final IAction action, final Menu nextMenu) {
         this.title = title;
         this.action = action;
         this.nextMenu = nextMenu;
     }
 
+    /**
+     * Позволяет
+     */
     public void doAction() {
         action.execuit();
     }
