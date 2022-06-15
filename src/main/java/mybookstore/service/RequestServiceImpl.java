@@ -21,13 +21,15 @@ import java.nio.file.Paths;
 import java.util.List;
 
 /**
- * Класс для проведения операций над объектами класса RequestRepository (запросами на книгу).
+ * Класс для проведения операций над объектами
+ * класса RequestRepository (запросами на книгу).
  */
 public class RequestServiceImpl implements RequestService {
     /**
      * поле logger.
      */
-    private static final Logger LOG = LogManager.getLogger(RequestServiceImpl.class.getName());
+    private static final Logger LOG = LogManager.getLogger(RequestServiceImpl
+            .class.getName());
     /**
      * поле класса RequestRepository для операций над объектами данного класса.
      */
@@ -37,7 +39,8 @@ public class RequestServiceImpl implements RequestService {
      */
     private BookRepository bookRepository;
 
-    public RequestServiceImpl(final RequestRepository requestRepository, final BookRepository bookRepository) {
+    public RequestServiceImpl(final RequestRepository requestRepository,
+                              final BookRepository bookRepository) {
         LOG.info(RequestServiceImpl.class.getSimpleName() + " " + "the constructor is called RequestServiceImpl");
         this.bookRepository = bookRepository;
         this.requestRepository = requestRepository;
